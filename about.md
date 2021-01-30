@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/images/acadia.JPG" style="width: 75%;">
+<img src="/images/acadia.JPG" style="max-height:400px;">
 
 Hi, I'm Kyle. You can reach me at [kylegiddon@gmail.com](mailto:kylegiddon@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/kyle-giddon/).
 
