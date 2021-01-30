@@ -10,7 +10,7 @@ Hi, I'm Kyle. You can reach me at [kylegiddon@gmail.com](mailto:kylegiddon@gmail
 
 I'm a Product Analyst/Data Scientist and I'm currently taking some time to relax before starting a new role in late February.
 
-Previously, I led the product analytics team at Jobcase in Cambridge, MA. My role involved building the team to bring data-driven insights to solve business problems, define strategy, and move key metrics. My group's responsibilities spanned working with cross-functional teams through the product lifecycle, ad hoc analytics to support decision-making, and metric/data governance.
+Previously, I led the product analytics team at [Jobcase](https://www.jobcase.com/) in Cambridge, MA. My role involved building the team to bring data-driven insights to solve business problems, define strategy, and move key metrics. My group's responsibilities spanned working with cross-functional teams through the product lifecycle, ad hoc analytics to support decision-making, and metric/data governance.
 
 I have experience across:
 
