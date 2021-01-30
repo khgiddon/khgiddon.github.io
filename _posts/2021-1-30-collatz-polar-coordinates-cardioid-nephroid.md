@@ -3,7 +3,7 @@ layout: post
 title: Plotting the first 2,000 Collatz sequences in polar coordinates produces a cardioid and a nephroid
 ---
 
-The [Collatz conjecture](https://https://en.wikipedia.org/wiki/Collatz_conjecture) is a well-known math conjecture that concerns the following sequence for a given starting integer *N*:
+The [Collatz conjecture](https://https://en.wikipedia.org/wiki/Collatz_conjecture) is a well-known math problem that concerns the following sequence for a given starting integer *N*:
 
 * If the number is even, divide it by 2.
 * If the number is odd, multiply it by 3 and add 1.
