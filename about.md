@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<img align="right" width="125" height="100" src="/images/acadia.JPG">
+
+![Me at Acadia National Park](/images/acadia.JPG | align="right")
 
 Hi, I'm Kyle. You can reach me at [kylegiddon@gmail.com](mailto:kylegiddon@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/kyle-giddon/).
 
