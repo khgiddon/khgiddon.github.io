@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img align="right" width="125" height="100" src="/images/acadia.JPG">
+
 Hi, I'm Kyle. You can reach me at [kylegiddon@gmail.com](mailto:kylegiddon@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/kyle-giddon/).
 
 I'm a Product Analyst/Data Scientist and I'm currently taking some time to relax before starting a new role in late February.
