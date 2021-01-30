@@ -24,7 +24,7 @@ The **Collatz conjecture** states that for every starting integer, the sequence 
 
 Below, I generate the Collatz sequences for the first 2,000 starting integers and plot them in [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system), using a fixed radius and with θ equal to the integer (converted to radians, so effectively with modulo 360). 
 
-![/images/collatz.png]
+![Plotted Collatz sequences](/images/collatz.png)
 
 Each sequence is plotted independently on top of each other, with each consecutive point in each of the 2,000 sequences connected by a (semi-transparent) line. The total number of elements in the 2,000 sequences is 136,100, so the total number of lines plotted in the image below is 136,100 - 2,000 = 134,100. (The code that generates the image is available [here](https://github.com/khgiddon/misc/blob/main/collatz/collatz.ipynb).)
 
