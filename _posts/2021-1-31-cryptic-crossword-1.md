@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cryptic crossword - #1
+title: Cryptic crossword - {% raw  %} #1 {% endraw %}
 ---
 
 I've been a daily solver of the *New York Times* crossword puzzle for several years now, but only recently started solving [UK-style (cryptic) crosswords](https://en.wikipedia.org/wiki/Cryptic_crossword).
