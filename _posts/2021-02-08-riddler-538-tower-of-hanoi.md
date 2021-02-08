@@ -27,7 +27,7 @@ To solve the problem, we’ll need to generate a Markov [transition matrix](http
 
 ![Transition choice example](/images/hanoi_transition2.png)
 
-To help code our matrix, we will give names to all our states. I choose to describe the position of each disc using Cartesian coordinates, where the x-coordinate represents the tower (1,2, or 3), and the y-coordinate represents the height (1,2,3 or 3). We can nest these coordinates into a tuple, where the first position in the tuple will note the coordinates for the largest disc, the second position the middle-radius disc, and the third coordinate the smallest disc. For example:
+To help code our matrix, we will give names to all our states. I choose to describe the position of each disc using Cartesian coordinates, where the x-coordinate represents the tower (1, 2, or 3), and the y-coordinate represents the height (1, 2, or 3). We can nest these coordinates into a tuple, where the first position in the tuple will note the coordinates for the largest disc, the second position the middle-radius disc, and the third coordinate the smallest disc. For example:
 
 * ((2,1),(2,2), (2,3)) represents the starting state
 * ((2,1),(2,2), (1,1)) represents a potential second state, as shown in the first picture above
