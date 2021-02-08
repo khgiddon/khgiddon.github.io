@@ -3,7 +3,7 @@ layout: post
 title: Solving The Riddler: the Tower of Hanoi with Markov chains
 ---
 
-*[This week’s Riddler column over at FiveThirtyEight](https://fivethirtyeight.com/features/can-you-randomly-move-the-tower/)* sets us up with some classic fodder for mathematical puzzles – “[The Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi).” As the column notes, the Tower of Hanoi ...:
+**[This week’s Riddler column over at FiveThirtyEight](https://fivethirtyeight.com/features/can-you-randomly-move-the-tower/)** sets us up with some classic fodder for mathematical puzzles – “[The Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi).” As the column notes, the Tower of Hanoi ...:
 
 > ... consists of three poles and three disks, all of which start on the same pole. The three disks have different diameters — the biggest disk is at the bottom and the smallest disk is at the top. The goal is to move all three disks from one pole to any other pole, one at a time, but there’s a catch. At no point can a larger disk ever sit atop a smaller disk. 
 
