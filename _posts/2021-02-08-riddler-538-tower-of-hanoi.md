@@ -54,11 +54,11 @@ o = np.ones(Q.shape[0])
 print(np.dot(N, o))
 ~~~
 
-From this, we get that the answer is 637/9, or about 70.7 moves on average to complete the puzzle. A Monte Carlo simulation we run of 10,000 runs of puzzle solves gives us a similar result.
+From this, we get that the answer is 637/9, or about 70.7 moves on average to complete the puzzle. I also run a Monte Carlo simulation of 100,000 runs of the puzzle that gives us a similar result.
 
 We’ll need to do some code refactoring so we can also handle the extra credit, but the same Markov framework can be used to solve the general case.
 
 ### Full code
 
-The full code is [available on GitHub](https://github.com/khgiddon/misc/blob/main/riddler_2020_02_05_notebook.ipynb).
+The full code is [available on GitHub](https://github.com/khgiddon/misc/blob/main/riddler_2021_02_05_notebook.ipynb).
 
