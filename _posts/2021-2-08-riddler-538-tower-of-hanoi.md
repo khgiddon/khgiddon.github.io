@@ -45,5 +45,6 @@ In previous Riddler columns where we’ve used Markov chains, we’ve been asked
 
 To get our answer, 
 
-
-$B$ = $(Q - I)^{-1} \\times R$
+{% raw %}
+$$B = (Q - I)^{-1} \times R$$
+{% endraw %}
