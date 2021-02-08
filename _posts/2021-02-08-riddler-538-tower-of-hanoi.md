@@ -3,7 +3,7 @@ layout: post
 title: Solving The Riddler's Tower of Hanoi with Markov chains
 ---
 
-**[This week’s Riddler column over at FiveThirtyEight](https://fivethirtyeight.com/features/can-you-randomly-move-the-tower/)** sets us up with some classic fodder for mathematical puzzles – Lucas's tower, also known as the “[The Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi).” Perhaps we can now just call it the "Riddler Tower"! As the column notes, the tower
+**[This week’s Riddler column over at FiveThirtyEight](https://fivethirtyeight.com/features/can-you-randomly-move-the-tower/)** sets us up with some classic fodder for mathematical puzzles – Lucas's tower, also known as the “[The Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi).” As the column notes, the tower
 
 > ... consists of three poles and three disks, all of which start on the same pole. The three disks have different diameters — the biggest disk is at the bottom and the smallest disk is at the top. The goal is to move all three disks from one pole to any other pole, one at a time, but there’s a catch. At no point can a larger disk ever sit atop a smaller disk. 
 
