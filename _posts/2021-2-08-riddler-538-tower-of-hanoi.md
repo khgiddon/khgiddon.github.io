@@ -13,7 +13,7 @@ And our puzzle asks the question:
 
 To solve this puzzle, we’ll turn to one of my favorite techniques, Markov Chains, which in the past we’ve used to solve Riddler puzzles related to X and Y. (Note - we’ll punt for now on the extra credit question which asks for the case of N disks instead of 3.)
 
-The solution we get from our Markov chain approach is 637/9, or about 70.7 moves on average to complete the puzzle. This is over 10x the minimum number of moves (7) required to complete the puzzle.
+**The solution we get from our Markov chain approach is 637/9**, or about 70.7 moves on average to complete the puzzle. This is over 10x the minimum number of moves (7) required to complete the puzzle.
 
 How did we get there? Below, I'll walk through my Markov chain approach implemented in Python to solve the problem, and subsequently confirm the result with a Monte Carlo simulation. (Note - we’ll punt for now on the extra credit question which asks for the case of N disks instead of 3!)
 
@@ -43,8 +43,22 @@ As it turns out, there are 27 valid states for the game, resulting in a 27 x 27 
 
 In previous Riddler columns where we’ve used Markov chains, we’ve been asked to find the probability of transitioning into each absorbing state. Here, the question is a bit different because we’re looking for the average time (steps) to absorption. Thankfully, once we have our transition matrix, it’s just a few lines of code to get our answer. (Note: while finding the average time to absorption is analytically simple, I don’t know of any methods that allow us to explore the distribution of time to absorption without resorting to Monte Carlo trials.)
 
-To get our answer, 
+To get our answer, we follow the steps to [compute the fundamental matrix](https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Fundamental_matrix) and [and find the expected number of steps](https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Expected_number_of_steps). We can do this in just a few lines of code (the variable "matrix" is our transition matrix):
 
-{% raw %}
-$$B = (Q - I)^{-1} \times R$$
-{% endraw %}
+~~~
+number_of_absorbing_states = 2
+I = np.eye(len(matrix) - number_of_absorbing_states)
+Q = matrix[:number_of_absorbing_states*-1,:number_of_absorbing_states*-1]
+N = np.linalg.inv(I - Q)
+o = np.ones(Q.shape[0])
+tta = np.dot(N, o)
+~~~
+
+From this, we get that the answer is 637/9, or about 70.7 moves on average to complete the puzzle.
+
+We’ll need to do some code refactoring so we can also handle the extra credit, but the same Markov framework can be used to solve the general case.
+
+### Full code
+
+The full code is available on GitHub.
+
