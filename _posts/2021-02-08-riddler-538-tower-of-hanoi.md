@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solving The Riddler's Tower with Markov chains
+title: Solving The Riddler's Tower of Hanoi with Markov chains
 ---
 
 **[This week’s Riddler column over at FiveThirtyEight](https://fivethirtyeight.com/features/can-you-randomly-move-the-tower/)** sets us up with some classic fodder for mathematical puzzles – Lucas's tower, also known as the “[The Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi).” Perhaps we can now just call it the "Riddler Tower"! As the column notes, the tower
