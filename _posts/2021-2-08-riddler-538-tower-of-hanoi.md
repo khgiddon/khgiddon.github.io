@@ -21,11 +21,11 @@ How did we get there? Below, I'll walk through my Markov chain approach implemen
 
 We can represent the Tower of Hanoi puzzle as a series of discrete states. For example, the game’s starting state has each of the three discs on the same pole. (Let’s assume in our game that we’re starting from the second pole. It doesn’t matter which of the three poles is the starting pole and which are the success poles as the math is the same because we don’t have to move discs onto an adjacent pole. Starting on the second pole also saves a couple lines of code.) For our first move, we might move the top disc from the second pole to the third pole. This represents a new discrete state. The movement that occurred from the starting position to this state is called a transition.
 
-![Transition example](/images/hanoitransition1.png)
+![Transition example](/images/hanoi_transition1.png)
 
 To solve the problem, we’ll need to generate a Markov transition matrix. This matrix shows the probability of each state transitioning to each other state. For example, the initial starting state has two potential states it can transition to: moving the smallest disc onto the first pole, or the smallest disc on the third pole. The initial state has two potential transitions, as shown below. The player in our problem will make each of these moves with equal probability.
 
-![Transition choice example](/images/hanoitransition2.png)
+![Transition choice example](/images/hanoi_transition2.png)
 
 To help code our matrix, we will give names to all our states. I choose to describe the position of each disc using Cartesian coordinates, where the x-coordinate represents the disc (1,2, or 3), and the y-coordinate represents the height (1,2,3 or 3). We can nest these coordinates into a tuple, where the first position in the tuple will note the coordinates for the largest disc, the second position the middle-radius disc, and the third coordinate the smallest disc. For example:
 
@@ -43,4 +43,7 @@ As it turns out, there are 27 valid states for the game, resulting in a 27 x 27 
 
 In previous Riddler columns where we’ve used Markov chains, we’ve been asked to find the probability of transitioning into each absorbing state. Here, the question is a bit different because we’re looking for the average time (steps) to absorption. Thankfully, once we have our transition matrix, it’s just a few lines of code to get our answer. (Note: while finding the average time to absorption is analytically simple, I don’t know of any methods that allow us to explore the distribution of time to absorption without resorting to Monte Carlo trials.)
 
+To get our answer, 
 
+
+$B$ = $(Q - I)^{-1} \\times R$
