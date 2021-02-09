@@ -43,7 +43,7 @@ As it turns out, there are 27 valid states for the game, resulting in a 27 x 27 
 
 [In previous Riddler columns](https://github.com/khgiddon/misc/blob/main/riddler_2020_10_23_notebook.ipynb) [where we’ve used Markov chains](https://github.com/khgiddon/misc/blob/main/riddler_2020_10_02_notebook.ipynb), we’ve been asked to find the probability of transitioning into each absorbing state. Here, the question is a bit different because we’re looking for the average time (steps) to absorption. Thankfully, once we have our transition matrix, it’s just a few lines of code to get our answer. (Note: while finding the average time to absorption is analytically simple, I don’t know of any methods that allow us to explore the distribution of time to absorption without resorting to Monte Carlo trials. Let me know if this isn't the case!)
 
-To get our answer, we follow the steps to [compute the fundamental matrix](https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Fundamental_matrix) and [and find the expected number of steps](https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Expected_number_of_steps). We can do this in just a few lines of code (the variable "matrix" is our transition matrix):
+To get our answer, we use some linear algebra and follow the steps to [compute the fundamental matrix](https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Fundamental_matrix) and [and find the expected number of steps](https://en.wikipedia.org/wiki/Absorbing_Markov_chain#Expected_number_of_steps). We can do this in just a few lines of code (the variable "matrix" is our transition matrix):
 
 ~~~
 number_of_absorbing_states = 2
