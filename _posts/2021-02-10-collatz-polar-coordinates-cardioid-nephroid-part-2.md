@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plotting the first 2,000 Collatz sequences in polar coordinates produces a cardioid and a nephroid
+title: Plotting the Collatz sequences in polar coordinates, part 2
 ---
 
 On January 30, I posted an observation that [plotting Collatz sequences in polar coordinates produces a cardioid and nephroid](https://en.wikipedia.org/wiki/Cardioid). I didn't have an underlying reason as to why.
