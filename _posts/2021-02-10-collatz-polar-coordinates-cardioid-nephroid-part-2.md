@@ -3,7 +3,7 @@ layout: post
 title: Plotting the Collatz sequences in polar coordinates, part 2
 ---
 
-On January 30, I posted an observation that [plotting Collatz sequences in polar coordinates produces a cardioid and nephroid](https://en.wikipedia.org/wiki/Cardioid). I didn't have an underlying reason as to why.
+On January 30, I posted an observation that [plotting Collatz sequences in polar coordinates produces a cardioid and nephroid](https://en.wikipedia.org/wiki/Cardioid). I didn't have an underlying intuition as to why.
 
 I posted the findings and the question as to why [over at Mathematics Stack Exchange](https://math.stackexchange.com/questions/4005950/why-does-plotting-collatz-sequences-in-polar-coordinates-produce-a-cardioid-and):
 
