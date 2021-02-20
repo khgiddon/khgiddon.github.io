@@ -19,6 +19,8 @@ I have experience across:
 * Business intelligence and reporting: construction of executive-level reporting and alerting, design of key metrics and common data definitions across the organization; design of data intake and ETL processes to enable scalable reporting to internal and external stakeholders
 * Advanced analytics: predictive analytics and modeling to support business and product operations
 
+I have a B.A. in Public Policy from Brown University.
+
 ### Contact me
 
 [kylegiddon@gmail.com](mailto:kylegiddon@gmail.com)
