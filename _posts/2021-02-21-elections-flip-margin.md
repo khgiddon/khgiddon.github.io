@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How many votes does it take to change the outcome of a U.S. presidential election\?
+title: How many votes does it take to change the outcome of a U.S. presidential election?
 ---
 
 How “close” was the 2020 U.S. presidential election? There are multiple ways to approach the question: for instance, one can cite the popular vote margin (Joe Biden won by 7,052,770 votes, or around 4.5% of the total) or the electoral college margin (Biden won 306 electoral votes to Trump’s 232). But if we focus on the closeness of the *outcome* of the election — who ended up in the White House — neither of these metrics tell us very much alone. The popular vote is irrelevant in a system governed by the institution of the electoral college (popular vote is not how the election is decided), and the overall electoral college margin can obscure the within-state vote margins that provide tipping points for the election’s outcome.
