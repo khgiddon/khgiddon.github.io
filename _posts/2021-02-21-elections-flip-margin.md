@@ -19,7 +19,7 @@ Computing flip margin requires us to find a “route” to an electoral college 
 
 We’re interested in locating the route to changing the election result that requires the smallest number of flipped votes. This is an optimization problem: we want to find the collection of states that minimizes the sum of within-state flip margins (quantity 1) while still having their sum of total electoral votes (quantity 2) exceed the needed electoral vote margin to make up (quantity 3).
 
-As it turns out, this is a variant of a famous problem in computer science and operations research: the “knapsack problem.” For some small datasets, the solutions can be eyeballed easily enough – for instance, it was [widely reported](https://www.washingtonpost.com/graphics/politics/2016-election/swing-state-margins/) that in 2016, Trump won the presidency by eking out wins in Michigan, Pennsylvania, and Wisconsin. But for larger datasets with more complex solutions (such as Ronald Reagan’s landslide victory over Walter Mondale in 1984), we need to write an algorithm to find the correct path as the solution would be extraordinarily difficult to find “by hand.” I compute the results by writing a knapsack-variant solver for presidential election datasets taken from the MIT Election Data and Science Lab and U.S. National Archive.
+As it turns out, this is a variant of a famous problem in computer science and operations research: the “[knapsack problem](https://en.wikipedia.org/wiki/Knapsack_problem).” For some small datasets, the solutions can be eyeballed easily enough – for instance, it was [widely reported](https://www.washingtonpost.com/graphics/politics/2016-election/swing-state-margins/) that in 2016, Trump won the presidency by eking out wins in Michigan, Pennsylvania, and Wisconsin. But for larger datasets with more complex solutions (such as Ronald Reagan’s landslide victory over Walter Mondale in 1984), we need to write an algorithm to find the correct path as the solution would be extraordinarily difficult to find “by hand.” I compute the results by writing a knapsack-variant solver for presidential election datasets taken from the MIT Election Data and Science Lab and U.S. National Archive (code and technical notes are below).
 
 ### Results
 
@@ -35,7 +35,7 @@ Which states are needed? The Table below shows the states needed to be flipped i
 
 Florida has not figured prominently as a tipping state in the last two elections (after appearing in the flipped list in 3 of the preceding 4 elections). Trump took Florida by over 370,000 votes in 2020 and 100,000 votes in 2016. 
 
-Reagan’s landslide 1984 victory bears some closer examination. Mondale only won Minnesota and Washington, DC. How can he flip the result?
+Reagan’s landslide 1984 victory bears some closer examination. Mondale won only Minnesota and Washington, DC. How can he flip the result?
 
 The graph below shows Mondale’s “fewest flipped votes” path to victory, comparing the number of electoral votes in each state to Mondale’s percentage of votes in that state. Notably, Mondale’s best route includes states like Wyoming where he performed poorly (where he had his third-lowest margin) and ignores larger states such as Michigan because their higher populations mean the number of votes required to flip them would be too high.
 
@@ -47,13 +47,13 @@ Finally, we can take a look at the relationship between popular vote margin and 
 
 The 1984 election again stands out as an outlier. Every other election since 1976 has had a flip margin percentage under 1% despite a wide range of popular vote margin results. (Of course, because flip margins rely on an *optimized* route to overturn an election result, their exact route is unlikely to be achieved in practice.)
 
-Looking at the progression over time of the above data, in recent years the flip margin has become increasingly detached from the popular vote margin. Obviously, two of the last five elections have been won by the popular vote loser, but flip margin examples in 1976 and 2020 also show how close these elections were to sharing that unfortunate achievement.
+Looking at the progression over time of the above data, in recent years the flip margin has become increasingly detached from the popular vote margin. Obviously, two of the last five elections have been won by the popular vote loser, but flip margin examples in 1976 and 2020 also show how close these elections were as well.
 
 ## Conclusion
 
-The anti-democratic bias of the Electoral College has been widely written about, and its structural flaws have reached the point where any good-faith argument for its tenancy is basically impossible to make (vs. a national popular vote). We’ve been pushed past brink two times in recent history – a popular vote loser in the White House – and as the analysis above shows, we’ve neared it several more times, saved only by the correct quasi-arbitrary distribution of voters in state political boundaries.
+The anti-democratic bias of the Electoral College has been widely written about, and its structural flaws have reached the point where any good-faith argument for its tenancy is basically impossible to make (vs. a national popular vote). We’ve been pushed past the brink – a popular vote loser in the White House – two times in recent history, and as the analysis above shows, we’ve neared it several more times, saved only by the "correct quasi-arbitrary distribution of voters in state political boundaries.
 
-One would hope that Electoral College Reform features prominently on any progressive political agenda. Unfortunately, because its implementation provides a large structural advantage to one political party (which holds veto points), reform is unlikely to happen soon.
+One would hope that Electoral College Reform features prominently on any progressive political agenda. Unfortunately, because its implementation provides a large structural advantage to one political party (which holds veto points), one would think reform is unlikely to happen soon.
 
 ----
 
