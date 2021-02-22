@@ -27,13 +27,13 @@ We can first take a look at the overall flip margins by year:
 
 ![Election flip margins by year](/images/elections/fig1.png)
 
-It’s no surprise that the smallest flip margin comes from the contested 2000 election, in which the US Supreme Court ruled to finalize the Florida election count that George W. Bush won by 537 votes (a state’s flip margin will be half the winner’s victory margin in that state, because the loser “takes” votes from the winner). Less well known might be the 1976 election, in which Jimmy Carter defeated Gerald Ford by a flip margin of less than 12,000 votes, even though he was ahead in the popular vote by over 2.X%.
+It’s no surprise that the smallest flip margin comes from the contested 2000 election, in which the US Supreme Court ruled to finalize the Florida election count that George W. Bush won by 537 votes (a state’s flip margin will be half the winner’s victory margin in that state, because the loser “takes” votes from the winner). Less well known might be the 1976 election, in which Jimmy Carter defeated Gerald Ford by a flip margin of less than 12,000 votes, even though he was ahead in the popular vote by over 2 percentage points.
 
 Which states are needed? The Table below shows the states needed to be flipped in each losing candidate’s flipped route to victory:
 
 ![Election flip margins by year](/images/elections/table1.png)
 
-Florida has not figured prominently as a tipping state in the last two elections (after appearing in the flipped list in 3 of the preceding 4 elections). Trump took Florida by over 370,000 votes in 2020 and XXX votes in 2016.
+Florida has not figured prominently as a tipping state in the last two elections (after appearing in the flipped list in 3 of the preceding 4 elections). Trump took Florida by over 370,000 votes in 2020 and 100,000 votes in 2016. 
 
 Reagan’s landslide 1984 victory bears some closer examination. Mondale only won Minnesota and Washington, DC. How can he flip the result?
 
