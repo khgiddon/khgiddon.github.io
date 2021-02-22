@@ -34,7 +34,7 @@ It’s no surprise that the smallest flip margin comes from the contested 2000 e
 
 Which states are needed? The Table below shows the states needed to be flipped in each losing candidate’s flipped route to victory:
 
-[TABLE 1]
+![Election flip margins by year](/images/elections/table1.png)
 
 Florida has not figured prominently as a tipping state in the last two elections (after appearing in the flipped list in 3 of the preceding 4 elections). Trump took Florida by over 370,000 votes in 2020 and XXX votes in 2016.
 
@@ -42,11 +42,11 @@ Reagan’s landslide 1984 victory bears some closer examination. Mondale only wo
 
 The graph below shows Mondale’s “fewest flipped votes” path to victory, comparing the number of electoral votes in each state to Mondale’s percentage of votes in that state. Notably, Mondale’s best route includes states like Wyoming where he performed poorly (where he had his third-lowest margin) and ignores larger states such as Michigan because their higher populations mean the number of votes required to flip them would be too high.
 
-[GRAPH 3]
+![Election flip margins by year](/images/elections/fig3.png)
 
 Finally, we can take a look at the relationship between popular vote margin and flip margin by year. Because the number of overall votes has increased over time (nearly doubling from 81 million in 1976 to 159 million in 2020), we’ll compare popular vote margin to flip margin *percentage* (the flip margin as a percentage of all votes) to better normalize across years:
 
-[GRAPH 2]
+![Election flip margins by year](/images/elections/fig2.png)
 
 The 1984 election again stands out as an outlier. Every other election since 1976 has had a flip margin percentage under 1% despite a wide range of popular vote margin results. (Of course, because flip margins rely on an *optimized* route to overturn an election result, their exact route is unlikely to be achieved in practice.)
 
