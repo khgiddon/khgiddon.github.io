@@ -31,7 +31,7 @@ It’s no surprise that the smallest flip margin comes from the contested 2000 e
 
 Which states are needed? The Table below shows the states needed to be flipped in each losing candidate’s flipped route to victory:
 
-![Election flip margins by year](/images/elections/table1.svg)
+![Election flip margins by year](/images/elections/table1.png)
 
 Florida has not figured prominently as a tipping state in the last two elections (after appearing in the flipped list in 3 of the preceding 4 elections). Trump took Florida by over 370,000 votes in 2020 and 100,000 votes in 2016. 
 
