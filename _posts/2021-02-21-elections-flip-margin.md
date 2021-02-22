@@ -7,7 +7,7 @@ How “close” was the 2020 U.S. presidential election? There are multiple ways
 
 I suggest that the best measure of the closeness of a given U.S. presidential election is what I’ll call the ***flip margin***: the minimum number of voters required to change their vote such that the presidential election has a different winner.
 
-Below, I’ll describe the calculation of flip margin and share comparative results for all presidential elections since 1976. As I’ll show, recent elections have had their flip margins relatively uncorrelated to popular vote margins. This analysis is one more piece of evidence in support of abolishing the increasingly anti-democratic institution of the Electoral College.
+Below, I’ll describe the calculation of flip margin and share comparative results for all presidential elections since 1976. As I’ll show, recent elections have had their flip margins relatively uncorrelated to popular vote margins. This analysis is one more piece of evidence in support of abolishing the increasingly anti-democratic Electoral College.
 
 ### Methodology: Calculating flip margin
 
@@ -19,7 +19,7 @@ Computing flip margin requires us to find a “route” to an electoral college 
 
 We’re interested in locating the route to changing the election result that requires the smallest number of flipped votes. This is an optimization problem: we want to find the collection of states that minimizes the sum of within-state flip margins (quantity 1) while still having their sum of total electoral votes (quantity 2) exceed the needed electoral vote margin to make up (quantity 3).
 
-As it turns out, this is a variant of a famous problem in computer science and operations research: the “knapsack problem.” For some small datasets, it can be eyeballed easily enough – for instance, it was [widely reported](https://www.washingtonpost.com/graphics/politics/2016-election/swing-state-margins/) that in 2016, Trump won the presidency by eking out wins in Michigan, Pennsylvania, and Wisconsin. But for larger datasets with more complex solutions (such as Ronald Reagan’s landslide victory over Walter Mondale in 1984), it requires writing an algorithm to find the correct path as the solution would be extraordinarily difficult to find “by hand.” I compute the results by writing a knapsack-variant solver for presidential election datasets taken from the MIT Election Data and Science Lab and U.S. National Archive (my full code is available here and important caveats are in the Technical Appendix, particularly in relation to the splitting of electoral votes in Maine and Nebraska.).
+As it turns out, this is a variant of a famous problem in computer science and operations research: the “knapsack problem.” For some small datasets, the solutions can be eyeballed easily enough – for instance, it was [widely reported](https://www.washingtonpost.com/graphics/politics/2016-election/swing-state-margins/) that in 2016, Trump won the presidency by eking out wins in Michigan, Pennsylvania, and Wisconsin. But for larger datasets with more complex solutions (such as Ronald Reagan’s landslide victory over Walter Mondale in 1984), we need to write an algorithm to find the correct path as the solution would be extraordinarily difficult to find “by hand.” I compute the results by writing a knapsack-variant solver for presidential election datasets taken from the MIT Election Data and Science Lab and U.S. National Archive.
 
 ### Results
 
