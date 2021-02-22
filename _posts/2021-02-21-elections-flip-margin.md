@@ -1,10 +1,7 @@
-
 ---
 layout: post
 title: How many votes does it take to change the outcome of a US presidential election?
 ---
-
-
 
 How “close” was the 2020 U.S. presidential election? There are multiple ways to approach the question: for instance, one can cite the popular vote margin (Joe Biden won by 7,052,770 votes, or around 4.5% of the total) or the electoral college margin (Biden won 306 electoral votes to Trump’s 232).[^1] But if we focus on the closeness of the *outcome* of the election — who ended up in the White House — neither of these metrics tell us very much alone. The popular vote is irrelevant in a system governed by the institution of the electoral college (popular vote is not how the election is decided), and the overall electoral college margin can obscure the within-state vote margins that provide tipping points for the election’s outcome.
 
@@ -52,7 +49,7 @@ The 1984 election again stands out as an outlier. Every other election since 197
 
 Looking at the progression over time of the above data, in recent years the flip margin has become increasingly detached from the popular vote margin. Obviously, two of the last five elections have been won by the popular vote loser, but flip margin examples in 1976 and 2020 also show how close these elections were to sharing that unfortunate achievement.
 
-Conclusion
+## Conclusion
 
 The anti-democratic bias of the Electoral College has been widely written about, and its structural flaws have reached the point where any good-faith argument for its tenancy is basically impossible to make (vs. a national popular vote). We’ve been pushed past brink two times in recent history – a popular vote loser in the White House – and as the analysis above shows, we’ve neared it several more times, saved only by the correct quasi-arbitrary distribution of voters in state political boundaries.
 
@@ -64,7 +61,7 @@ One would hope that Electoral College Reform features prominently on any progres
 
 ### Code
 
-The full code is available on my GitHub here. (LINK)
+The full code is [available on my GitHub](https://github.com/khgiddon/misc/blob/main/elections/elections.ipynb).
 
 ### Data sources
 
@@ -81,9 +78,9 @@ In the initial implementation above, I ignore this complexity and instead treat 
 
 We can likely integrate this unique feature into the knapsack solver by pre-computing, for each election, the total number of electoral votes won by each candidate in Maine and Nebraska for any allocation of votes in each congressional district. This is likely worth revisiting but I haven’t done so in the first implementation. I’ll update this post upon addressing.
 
-### Miscellaneous notes
+### Miscellaneous notes / footnotes
 
-* I do not consider [faithless electors](https://en.wikipedia.org/wiki/Faithless_elector) in any calculations.
+I do not consider [faithless electors](https://en.wikipedia.org/wiki/Faithless_elector) in any calculations.
 
 [^1]: For this particular statistic, I'm using [Wikipedia](https://en.wikipedia.org/wiki/2020_United_States_presidential_election) rather than the datasets described above. 
 [^2]: See [article on 270 to Win](https://www.270towin.com/content/split-electoral-votes-maine-and-nebraska/).
