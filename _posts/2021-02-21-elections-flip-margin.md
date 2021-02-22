@@ -51,7 +51,7 @@ Looking at the progression over time of the above data, in recent years the flip
 
 ## Conclusion
 
-The anti-democratic bias of the Electoral College has been widely written about, and its structural flaws have reached the point where any good-faith argument for its tenancy is basically impossible to make (vs. a national popular vote). We’ve been pushed past the brink – a popular vote loser in the White House – two times in recent history, and as the analysis above shows, we’ve neared it several more times, saved only by the "correct quasi-arbitrary distribution of voters in state political boundaries.
+The anti-democratic bias of the Electoral College has been [widely written about](https://www.vox.com/21142223/electoral-college-2020-election-jesse-wegman), and its structural flaws have reached the point where any good-faith argument for its tenancy is basically impossible to make (vs. a national popular vote). We’ve been pushed past the brink – a popular vote loser in the White House – two times in recent history, and as the analysis above shows, we’ve neared it several more times, saved only by the "correct quasi-arbitrary distribution of voters in state political boundaries.
 
 One would hope that Electoral College Reform features prominently on any progressive political agenda. Unfortunately, because its implementation provides a large structural advantage to one political party (which holds veto points), one would think reform is unlikely to happen soon.
 
