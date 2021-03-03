@@ -9,6 +9,6 @@ I posit the *sparkling water conjecture* in the field of caloric arithmetic. The
 
 The conjecture uses the following observation as supporting evidence:
 
-![Transition example](/images/caloric_arithmetic.JPG)
+![Transition example](/images/caloric_arithmetic.png)
 
 Note that this theorem has been proven false for other flavors.
