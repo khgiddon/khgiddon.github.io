@@ -11,4 +11,4 @@ The conjecture uses the following observation as supporting evidence:
 
 ![Transition example](/images/caloric_arithmetic.png)
 
-Note that this theorem has been proven false for other flavors.
+Note that this conjecture has been proven false for other flavors.
