@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A conjecture of caloric arithmetic
+title: A conjecture of calorific arithmetic
 ---
 
-I posit the *sparkling water conjecture* in the field of caloric arithmetic. The conjecture is as follows: 
+I posit the *sparkling water conjecture* in the field of calorific arithmetic. The conjecture is as follows: 
 
     0 × 3 = 10
 
