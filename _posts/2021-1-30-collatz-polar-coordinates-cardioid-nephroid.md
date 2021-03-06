@@ -31,3 +31,7 @@ Each sequence is plotted independently on top of each other, with each consecuti
 We can see two clear shapes – a [cardioid](https://en.wikipedia.org/wiki/Cardioid) overlaid on a [nephroid](https://en.wikipedia.org/wiki/Nephroid).
 
 Now, *why* do these shapes appear? My experience in number theory only takes me this far, so I'll have to hang up my spurs here, but will be sending the question out to a couple more knowledgable parties. As of now, there's [no substantive references online to nephroids and the Collatz conjecture](https://www.google.com/search?q=%22collatz+conjecture%22+%22nephroid%22&oq=%22collatz+conjecture%22+%22nephroid%22&aqs=chrome..69i57j33i299.4318j0j1&sourceid=chrome&ie=UTF-8) together. I'll update this post with any progress!
+
+**UPDATE (February 10, 2021):**
+
+See [Part 2](http://www.kylegiddon.com/collatz-polar-coordinates-cardioid-nephroid-part-2/).
