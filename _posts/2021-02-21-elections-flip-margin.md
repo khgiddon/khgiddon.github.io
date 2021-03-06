@@ -49,7 +49,7 @@ The 1984 election again stands out as an outlier. Every other election since 197
 
 Looking at the progression over time of the above data, in recent years the flip margin has become increasingly detached from the popular vote margin. Obviously, two of the last five elections have been won by the popular vote loser, but flip margin examples in 1976 and 2020 also show how close these elections were as well.
 
-## Conclusion
+### Conclusion
 
 The anti-democratic bias of the Electoral College has been [widely written about](https://www.vox.com/21142223/electoral-college-2020-election-jesse-wegman), and its structural flaws have reached the point where any good-faith argument for its tenancy is basically impossible to make (vs. a national popular vote). We’ve been pushed past the brink – a popular vote loser in the White House – two times in recent history, and as the analysis above shows, we’ve neared it several more times, saved only by the "correct quasi-arbitrary distribution of voters in state political boundaries.
 
