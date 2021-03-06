@@ -3,6 +3,8 @@ layout: post
 title: Luck and skill in Minecraft speedrunning
 ---
 
+BREAK INTO PART 1: INTRODUCTION AND PART 2 for CALCS SO CAN BE DONE SEPARATELY?
+
 I recently started reading up on the Minecraft speedrunning community. For anyone unfamiliar with "Minecraft" or "speedrunning": Minecraft is a video game based on exploration, world-building, and construction; and speedrunning is an attempt to complete a video game or part of a video game as quickly as possible. Speedrunning has grown into a popular subculture across many games: some of the most popular speedruns have [upward of 10 million views on YouTube](https://www.youtube.com/watch?v=CFkv6DtKf3w), and players frequently livestream speedrun attempts to substantial audiences on Twitch and other platforms. The website [speedrun.com](www.speedrun.com) serves as an archivist and provides leaderboards for many communities. As of March 2021, the site indicates that  Minecraft is the most popular game for speedrunning, with over 1,400 registered and active speedrunners.
 
 
@@ -40,6 +42,22 @@ Getting the Minecraft speedrunning record (i.e., completing the game in the fast
 
 
 
-What composes skill? We can think of things like game knowledge and how to react to, technical execution (can I produce the series of inputs needed into my computer to accomplish the result I am trying to achieve) . Much of speedrunning , is making adjustments on the fly and reacting to certain situations. What's not on the list above is discovering new strategies. Even though this is important to the game, for any player competing publicly, he or she is typically posting his or her runs for others to see, so any strategic innovation that provides real benefits is likely to be picked up by others, negating much of the discoverer's advantage. In fact, one could classify innovations in speedrunning as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)): as a piece of knowledge, they meet the traditional public good criteria of being non-excludable (one can't prevent someone else from using a new speedrunning strategy) and non-rivalrous (using a new strategy doesn't "use it up" and prevent others from using it.)  
+What composes skill? We can think of things like game knowledge and how to react to, technical execution (can I produce the series of inputs needed into my computer to accomplish the result I am trying to achieve) . Much of speedrunning , is making adjustments on the fly and reacting to certain situations. What's not on the list above is discovering new strategies. Even though the strategic element is crucial to the game, any player competing publicly is typically posting his or her runs for others to see, so any strategic innovation that provides real benefits is likely to be picked up by others, negating much of the discoverer's initial advantage. In fact, one could classify innovations in speedrunning as a [public good](https://en.wikipedia.org/wiki/Public_good_(economics)): as a piece of knowledge, they meet the traditional public good criteria of being non-excludable (one can't prevent someone else from using a new speedrunning strategy) and non-rivalrous (using a new strategy doesn't "use it up" and prevent others from using it). (Of course, some types of knowledge can be made a non-public goods through legal regimes such as patents.)
+
+There is some minimum level of skill (let's call this *s*) to have a nonzero chance of attaining the speedrun record. 
+
+There'll be some top echelon of speedrunners. 
+
+Consider games that have no luck (like chess)
+
+There's going to be some collection. Because this is the most popular speedrun?
+
+## Simulating the development of a speedrunning record
 
 
+### Naive simulation
+
+### Simulation with skill improvement 
+However, we have to assume level of strategic improvement that the community engages with, and potential game updates that make speedrunning easier, and improvements in execution from the individual players.
+
+Theoretical floor. 
