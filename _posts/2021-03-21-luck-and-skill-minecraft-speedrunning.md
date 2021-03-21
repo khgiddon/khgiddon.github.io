@@ -56,13 +56,17 @@ A player needs a minimum level of skill to have any chance of setting the record
 
 For some games, there may also be nonlinearity in the curve – for example, attaining a certain level of skill allows the player access to new strategies that increase one's record probability:
 
-![Figure 2](/images/speedrun/fig2.png){:height="300px" style="text-align: center;"}
+{:refdef: style="text-align: center;"}
+![Figure 2](/images/speedrun/fig2.png){:height="300px"}
+{:refdef}
 
 One example of this is in Super Mario Bros. – there are many difficult-to-execute techniques (such as the "[flagpole glitch](https://www.youtube.com/watch?v=oBxBaMW9riw)") that are now near must-haves to set the record.
 
 However, in a luck-heavy game there will likely be diminishing marginal returns (in terms of record probability) to increasing skill. Inferior players have access to the same luck as superior players, and luck becomes an increasingly large component of the balance. Thus we might expect the shape of the curve for a luck-heavy game like Minecraft to look something like this:
 
-![Figure 2](/images/speedrun/fig3.png)
+{:refdef: style="text-align: center;"}
+![Figure 3](/images/speedrun/fig3.png){:height="300px"}
+{:refdef}
 
 The speedrunner's curse is that any run that actually achieves the record is likely to be extremely lucky, so the only way it can be beaten is by some combination of an even greater and more unlikely degree of luck, or developments in skill such that a player can beat the record by being more skillful and less lucky. The current record holder wrote in the description for his video: "[god seed, god rng](https://www.youtube.com/watch?v=H3m5ZL7Nd2I)". ("RNG" – random number generator – refers to elements of randomness outside the player's control in speedrunning.) For every record that is set, the next one becomes harder.
 
