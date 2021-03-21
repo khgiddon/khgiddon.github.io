@@ -53,7 +53,7 @@ A player needs a minimum level of skill to have any chance of setting the record
 
 For some games, there may also be nonlinearity in the curve – for example, attaining a certain level of skill allows the player access to new strategies that dramatically increase one's record probability:
 
-![Figure 2](/images/speedrun/fig2.png)
+![Figure 2](/images/speedrun/fig2.png){max-height:"250"}
 
 One example of this is in Super Mario Bros. – there are many difficult-to-execute techniques (such as the "[flagpole glitch](https://www.youtube.com/watch?v=oBxBaMW9riw)") that are now near must-haves to set the record.
 
