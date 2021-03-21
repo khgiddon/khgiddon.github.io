@@ -47,7 +47,10 @@ Now let's generalize these ideas. For any given game:
 
 In a game with no luck, the relationship between skill and record-setting probability (on a per-run basis) may look something like this:
 
-![Figure 1](/images/speedrun/fig1.png)
+{:refdef: style="text-align: center;"}
+![Figure 1](/images/speedrun/fig1.png){:height="300px"}
+{:refdef}
+
 
 A player needs a minimum level of skill to have any chance of setting the record, and then increasing skill will result in linearly increasing returns.
 
