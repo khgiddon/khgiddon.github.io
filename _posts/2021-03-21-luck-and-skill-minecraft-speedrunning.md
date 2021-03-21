@@ -51,9 +51,9 @@ In a game with no luck, the relationship between skill and record-setting probab
 
 A player needs a minimum level of skill to have any chance of setting the record, and then increasing skill will result in linearly increasing returns.
 
-For some games, there may also be nonlinearity in the curve – for example, attaining a certain level of skill allows the player access to new strategies that dramatically increase one's record probability:
+For some games, there may also be nonlinearity in the curve – for example, attaining a certain level of skill allows the player access to new strategies that increase one's record probability:
 
-![Figure 2](/images/speedrun/fig2.png){:max-height:"250px"}
+![Figure 2](/images/speedrun/fig2.png){:height:"250px"}
 
 One example of this is in Super Mario Bros. – there are many difficult-to-execute techniques (such as the "[flagpole glitch](https://www.youtube.com/watch?v=oBxBaMW9riw)") that are now near must-haves to set the record.
 
