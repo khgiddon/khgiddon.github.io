@@ -3,7 +3,7 @@ layout: post
 title: The value of NBA steal, and analytics communication
 ---
 
-In 2014, Benjamin Morris published "The Hidden Value of the NBA Steal” on FiveThirtyEight. In his article, Morris argued that both traditional NBA player evaluation and analytics had underrated the value of a player getting steals; he included the eye-catching assertion that "a steal is 'worth' as much as nine points." (More on that later.) With its provocative headline, the article generated a fair amount of discussion in the sports analytics community. Morris ended up writing a four-part response and rebuttal to his critics [1,2,3,4].
+In 2014, Benjamin Morris published "[The Hidden Value of the NBA Steal](https://fivethirtyeight.com/features/the-hidden-value-of-the-nba-steal/)” on FiveThirtyEight. In his article, Morris argued that both traditional NBA player evaluation and analytics had underrated the value of a player getting steals; he included the eye-catching assertion that "a steal is 'worth' as much as nine points." (More on that later.) With its provocative headline, the article generated a fair amount of discussion in the sports analytics community. Morris ended up writing a four-part response and rebuttal to his critics [1,2,3,4].
 
 It's a fascinating piece to revisit some seven years past. Knowing where sports analytics went subsequently – increasingly focused on the new frontier of in-game player tracking data – the focus on a basic box-score statistic (steals) feels almost refreshingly quaint.
 
