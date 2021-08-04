@@ -7,7 +7,7 @@ In 2014, Benjamin Morris published "[The Hidden Value of the NBA Steal](https://
 
 It's a fascinating piece to revisit some seven years past. Knowing where sports analytics went subsequently – increasingly focused on the new frontier of in-game player tracking data – the focus on a basic box-score statistic (steals) feels almost refreshingly quaint.
 
-The rebuttal series by Morris is worth reading as it clarifies the underlying assumptions and intended takeaways of his article. But there's one issue with the piece left yet undiscussed that is worth diving into — namely that it conflates different types of “value” and as a result falls into the well-known correlation-does-not-imply-causation pitfall, albeit in different garb than usual.
+The rebuttal series by Morris is worth reading as it clarifies the underlying assumptions and intended takeaways of his article. But there's one issue with the piece left yet undiscussed that is worth diving into — namely that it conflates different types of “value” and as a result falls into the well-known *correlation-does-not-imply-causation* pitfall, albeit in different garb than usual.
 
 Before laying out my argument, I think it’s worth a raison d’etre for why I’m spending the time writing this and why I’m “picking on” a seven-year-old article written for a somewhat general audience. Here goes: it’s an instructive example of where analytics can go awry in the translation to an audience. There’s nothing wrong methodologically with what Morris has done, only in how it’s been communicated, and even then only subtly. But because of that, the reader may walk away with a very wrong conclusion in mind. 
 
@@ -15,7 +15,7 @@ I’ll start by describing Morris’s analysis, identify the overstatement of ap
 
 With that said, let’s dive into the example. Morris’s article relies upon linear regression, so the section below necessarily assumes the reader has some familiarity with regression analysis.
 
-###Morris’s regression analysis###
+### Morris’s regression analysis###
 
 Morris's assertions are based on a set of coefficients from linear regression. (He shares the methodology but doesn’t share a full regression output table.) The regression is on the player level, and the dependent variable can be described as a measure of player value to his team. (The exact implementation and accuracy of this value metric – see his footnote – isn't important for our purposes here, and we can just assume that it is correct.) His set of independent variables are basic box score stats: points, rebounds, assists, blocks, steals and turnovers.
 
@@ -31,16 +31,17 @@ If the largest misstep were an ambiguous reference to “value,” then there wo
 
 Morris writes:
 
-> NBA stat geeks have been trying to mash up box score stats for decades. The most famous attempt is John Hollinger’s player efficiency rating [PER], which ostensibly includes steals in its calculation but values them about as much as two-point baskets.
-> [...]
-> Hollinger weights each stat in his formula based on his informed estimation of its intrinsic value. Although this is intuitively neat, empiricists like to test these sorts of things. One way to do it is to compare how teams have performed with and without individual players, using the results to examine what kinds of player statistics most accurately predict the differences. In particular, we’re interested in which player stats best predict whether a team will win or lose more often without him.
-> [...]
+> NBA stat geeks have been trying to mash up box score stats for decades. The most famous attempt is John Hollinger’s player efficiency rating [PER], which ostensibly includes steals in its calculation but values them about as much as two-point baskets. [...]
+
+> Hollinger weights each stat in his formula based on his informed estimation of its intrinsic value. Although this is intuitively neat, empiricists like to test these sorts of things. One way to do it is to compare how teams have performed with and without individual players, using the results to examine what kinds of player statistics most accurately predict the differences. In particular, we’re interested in which player stats best predict whether a team will win or lose more often without him. [...]
+
 > By this measure [Morris’s analysis], PER vastly undervalues steals. Because steals and baskets seem to be similarly valuable, and there are so many more baskets than steals in a game, it’s hard to see how steals can be all that important. But those steals hold additional value when we predict the impact of the players who get them. A lot more value.
 
 The problem here is that Morris is comparing apples and oranges. Morris clarified that his analysis refers only to the predictive value of steals, but Hollinger’s metric refers to the intrinsic value of steals. These are incomparable. Remember, all Morris’s regression analysis has done is shown an association between steals and overall player value. He has established correlation but not causation; therefore, he can make no claims as to the intrinsic value of the steal. So when Morris asserts that, in comparison to his metric, “PER vastly undervalues steals,” that is unsupported by his methodology.
 
 It’s also worth mentioning the piece’s misleading title — "The Hidden Value of the NBA Steal” — which again falls prey to the double meaning of “value.” In the context of sports analytics, “value” can be assumed to be referring to intrinsic value unless otherwise specified. But the title can only be referring to predicted value, because, again, the regression analysis can make no claims on intrinsic value. I’ll add the caveat that it’s usually not authors who write article titles in digital media, but this slippage in the title encourages readers to take away a very wrong conclusion (that steals are underrated in terms of intrinsic value). If we add an appropriate modifier — “The Hidden Predictive Value of the NBA Steal” — the article becomes a lesser pronouncement.
-Correlation, causation, and a detour into baseball
+
+### Correlation, causation, and a detour into baseball
 
 Is Morris’s analysis some potential evidence that steals might have more of a game impact than previously assumed, even if he cannot prove that definitively? I’ve heard it said cheekily that correlation does not imply causation, but correlation is correlated with causation. Does the same apply here?
  
@@ -84,7 +85,9 @@ We see that a home run is “worth” over seven times as much as a single. (Tha
 
 Of course not. This is just an association. One explanation for these results is that team doubles are more marginally predictive of scoring than team triples because players who hit triples may be smaller and speedier, and hit fewer home runs. But it’s helpful to use the baseball example because the game is structured such that we know that a triple is strictly better than a double. It’s an objective reality check. There would be no issues by simply stating that in the sample used, a team's number of doubles is observationally associated with run scoring to a greater degree than a team's number of triples. That appears to be the case. It does not follow that doubles are more intrinsically valuable than triples, even though they have more predictive value for a team’s ability to score runs.
 
-As it turns out, baseball research has well established the intrinsic value of different in-game events (see this article on Fangraphs). To close the loop here, we can use this as an objective comparison to compare how far “off” our naive regression results were vs. the actual values:
+As it turns out, baseball research has well established the intrinsic value of different in-game events (see [this article](https://library.fangraphs.com/principles/linear-weights/) on Fangraphs). To close the loop here, we can use this as an objective comparison to compare how far “off” our naive regression results were vs. the actual values ("linear weights"):
+
+![Comparison of naive regression coefficients vs. linear weights](/images/baseball_regression_comparison.png)
 
 A home run is actually around 2.3x more intrinsically valuable than a single. All this is to show that we cannot interpret the regression results above as implying anything about the intrinsic value of various marginal events in baseball or basketball. 
 
