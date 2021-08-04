@@ -32,13 +32,9 @@ If the largest misstep were an ambiguous reference to “value,” then there wo
 Morris writes:
 
 > NBA stat geeks have been trying to mash up box score stats for decades. The most famous attempt is John Hollinger’s player efficiency rating [PER], which ostensibly includes steals in its calculation but values them about as much as two-point baskets.
-
 > [...]
-
 > Hollinger weights each stat in his formula based on his informed estimation of its intrinsic value. Although this is intuitively neat, empiricists like to test these sorts of things. One way to do it is to compare how teams have performed with and without individual players, using the results to examine what kinds of player statistics most accurately predict the differences. In particular, we’re interested in which player stats best predict whether a team will win or lose more often without him.
-
 > [...]
-
 > By this measure [Morris’s analysis], PER vastly undervalues steals. Because steals and baskets seem to be similarly valuable, and there are so many more baskets than steals in a game, it’s hard to see how steals can be all that important. But those steals hold additional value when we predict the impact of the players who get them. A lot more value.
 
 The problem here is that Morris is comparing apples and oranges. Morris clarified that his analysis refers only to the predictive value of steals, but Hollinger’s metric refers to the intrinsic value of steals. These are incomparable. Remember, all Morris’s regression analysis has done is shown an association between steals and overall player value. He has established correlation but not causation; therefore, he can make no claims as to the intrinsic value of the steal. So when Morris asserts that, in comparison to his metric, “PER vastly undervalues steals,” that is unsupported by his methodology.
