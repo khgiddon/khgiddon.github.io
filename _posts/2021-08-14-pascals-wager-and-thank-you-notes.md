@@ -16,7 +16,7 @@ A rational person will make a choice with the highest expected value (reward). T
 
 To formalize the above: The wager can be summarized with the following decision matrix [[^2]]:
 
-![Decision matrix 1](/images/pascal/d1a.png)
+![Decision matrix 1](/images/pascal/d2b.png)
 
 The last column is up for debate. I assume here (because it’s helpful for later) that the combination of “Belief” and “God does not exist” is a finite loss because there are psychic and other costs believing in God (guilt, tithing), though one can easily make the opposite argument that belief in God has net psychic benefits because of the sense of comfort and community, etc. That need not be litigated here; because of the potential for infinite gains or losses, the direction of the finite gains or losses doesn’t change the argument or the mathematical result. This matrix formalizes that *belief* is the optimal choice because it results in infinite gain, and *disbelief* is the suboptimal choice because it results in infinite loss.
 
