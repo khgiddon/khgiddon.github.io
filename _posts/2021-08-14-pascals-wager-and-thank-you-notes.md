@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Applying Pascal’s wager to the post-interview thank you note
+title: Applying Pascal’s wager to job interview thank-you notes
 ---
 
 What I really want to talk about is thank-you notes after job interviews and why I believe you shouldn’t send them – but first, we'll dive into “Pascal’s wager” to develop the decision framework for later use.
