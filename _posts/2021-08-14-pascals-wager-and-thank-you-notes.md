@@ -16,7 +16,7 @@ A rational person will make a choice with the highest expected value (reward). T
 
 To formalize the above: The wager can be summarized with the following decision matrix [^2]:
 
-![Election flip margins by year](/images/pascal/decision1.png)
+![Decision matrix 1](/images/pascal/decision1.png)
 
 The last column is up for debate. I assume here (because it’s helpful for later) that the combination of “Belief” and “God does not exist” is a finite loss because there are psychic and other costs believing in God (guilt, tithing), though one can easily make the opposite argument that belief in God has net psychic benefits because of the sense of comfort and community, etc. That need not be litigated here; because of the potential for infinite gains or losses, the direction of the finite gains or losses doesn’t change the argument or the mathematical result. This matrix formalizes that *belief* is the optimal choice because it results in infinite gain, and *disbelief* is the suboptimal choice because it results in infinite loss.
 
@@ -33,17 +33,17 @@ After a job interview, a candidate can choose to send thank-you notes to their i
 
 As we’ve stated the problem now, this is identical to Pascal’s wager. The sending of a thank-you note may or may not affect the interviewers’ decision of whether to give the candidate a job offer, but if it does, it has infinite rewards. See our matrix below:
 
-![Election flip margins by year](/images/pascal/decision2.png)
+![Decision matrix 2](/images/pascal/decision2.png)
 
 By similar logic to Pascal’s wager, if the decision matrix above were correct, the candidate should always send thank-you notes.
 
 One might raise an eyebrow at the assumptions of infinite utility or disutility from getting the job. Isn’t this extreme? What if there are more jobs out there? Sure, instead we can replace the gains and losses with actual values (converting everything to monetary value):
 
-![Election flip margins by year](/images/pascal/decision3.png)
+![Decision matrix 3](/images/pascal/decision3.png)
 
 From these values we can also do some additional math – we can compute whether the candidate should send thank-you notes or not, based on the probability that the notes affect whether the candidate gets a job offer. With some algebra, we can determine that the breakeven probability is 1/31, or around 3.2%. If the candidate believes the probability of sending notes affecting whether they receive a job offer is greater than this, they should send notes.
 
-![Election flip margins by year](/images/pascal/graph.png)
+![Expected value graph](/images/pascal/graph.png)
 
 ## The curveball
 
@@ -53,7 +53,7 @@ My argument rests on one key assumption: If a thank-you note affects whether you
 
 Now let’s re-draw the decision matrix (and we’ll use infinite losses and gains, even though it’s hyperbole):
 
-![Election flip margins by year](/images/pascal/decision4.png)
+![Decision matrix 4](/images/pascal/decision4.png)
 
 Now, “do not send thank-you notes” is a strictly dominant strategy, and “send thank.-you notes” is a strictly dominated strategy. No matter whether the note affects the job offer or not, the outcome is always better by not sending a thank you note. 
 
