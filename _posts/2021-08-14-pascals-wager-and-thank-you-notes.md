@@ -5,7 +5,7 @@ title: Applying Pascal’s wager to the post-interview thank you note
 
 What I really want to talk about is thank-you notes after job interviews and why I believe you shouldn’t send them – but first, we'll dive into “Pascal’s wager” to develop the decision framework for later use.
 
-“Pascal’s wager,” named for the 17th-century French polymath Blaise Pascal, is a theological argument for believing in God. (Our interest here is less on the theological side and more on the decision-theoretical side.) Pascal’s wager can be summarized as “even under the assumption that God’s existence is unlikely, the potential benefits of believing are so vast as to make betting on theism rational” [^1]. The argument begins with the assumptions: 
+“Pascal’s wager,” named for the 17th-century French polymath Blaise Pascal, is a theological argument for believing in God. (Our interest here is less on the theological side and more on the decision-theoretical side.) Pascal’s wager can be summarized as “even under the assumption that God’s existence is unlikely, the potential benefits of believing are so vast as to make betting on theism rational” [[^1]]. The argument begins with the assumptions: 
 
 1. Each person can believe in God, or not believe in God. Each person is forced to choose belief or non-belief. (This choice is the “wager.”)
 2. If God does exist, there are potentially infinite rewards to believing in God (e.g., heaven), and potentially infinite costs to not believing in God (e.g., damnation).
@@ -14,13 +14,13 @@ What I really want to talk about is thank-you notes after job interviews and why
 
 A rational person will make a choice with the highest expected value (reward). Therefore: believing in God is the rational choice, because the expected value of that choice is infinite according to our assumptions, and the expected value of not believing in God is negatively infinite (eternal hellfire, etc.). This is true even if the wagerer puts a small probability on the existence of God, because a small number multiplied by infinity is still infinity.
 
-To formalize the above: The wager can be summarized with the following decision matrix [^2]:
+To formalize the above: The wager can be summarized with the following decision matrix [[^2]]:
 
 ![Decision matrix 1](/images/pascal/d1a.png)
 
 The last column is up for debate. I assume here (because it’s helpful for later) that the combination of “Belief” and “God does not exist” is a finite loss because there are psychic and other costs believing in God (guilt, tithing), though one can easily make the opposite argument that belief in God has net psychic benefits because of the sense of comfort and community, etc. That need not be litigated here; because of the potential for infinite gains or losses, the direction of the finite gains or losses doesn’t change the argument or the mathematical result. This matrix formalizes that *belief* is the optimal choice because it results in infinite gain, and *disbelief* is the suboptimal choice because it results in infinite loss.
 
-Anyway – we’re going to move on from Pascal here and onto thank-you notes. There’s a large literature on Pascal’s wager and its counterarguments, and I’d encourage anyone interested to check it out further. Ultimately, I don’t find the argument very compelling (there’s some laxity of language – what does it mean to “believe” in God and why is this something that can be chosen, rather than felt?), but the formalization of this decision matrix is useful. The Stanford Encyclopedia of Philosophy cites a source that claims that Pascal’s wager is “the first well-understood contribution to decision theory” [^3].
+Anyway – we’re going to move on from Pascal here and onto thank-you notes. There’s a large literature on Pascal’s wager and its counterarguments, and I’d encourage anyone interested to check it out further. Ultimately, I don’t find the argument very compelling (there’s some laxity of language – what does it mean to “believe” in God and why is this something that can be chosen, rather than felt?), but the formalization of this decision matrix is useful. The Stanford Encyclopedia of Philosophy cites a source that claims that Pascal’s wager is “the first well-understood contribution to decision theory” [[^3]].
 
 ## Applying Pascal’s wager to the post-interview thank you note
 
