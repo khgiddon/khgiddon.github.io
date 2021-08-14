@@ -43,7 +43,7 @@ One might raise an eyebrow at the assumptions of infinite utility or disutility 
 
 From these values we can also do some additional math – we can compute whether the candidate should send thank-you notes or not, based on the probability that the notes affect whether the candidate gets a job offer. With some algebra, we can determine that the breakeven probability is 1/31, or around 3.2%. If the candidate believes the probability of sending notes affecting whether they receive a job offer is greater than this, they should send notes.
 
-![Expected value graph](/images/pascal/graph.png)
+![Expected value graph](/images/pascal/graph1.png)
 
 ## The curveball
 
