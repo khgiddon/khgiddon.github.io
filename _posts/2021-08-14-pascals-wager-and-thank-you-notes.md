@@ -64,6 +64,7 @@ We can impeach the above with a couple caveats:
 
 All in all, interviewing is difficult from the perspective of the employer (e.g., implementing the right level of rigor to create an interview process with high [precision and recall](https://en.wikipedia.org/wiki/Precision_and_recall)) and prone to conscious and unconscious biases. I won’t fully discuss this here, but one method of reducing bias is to implement a standardized script, question set, or rubric (often the opposite of how many people conduct interviews, who mistakenly believe in their ability to get accurate signal from a free-flowing conversation!). And one simpler, easier way to reduce bias and renew focus on what matters is by ignoring thank-you notes in any decision-making. Or, even better yet, explicitly tell candidates somewhere in the communication process that you won’t consider thank-you notes and there’s no need to send them. “And no, that that’s not a trick, we really don’t want you to send them!”
 
+## Footnotes
 
 [^1]: [Internet Encyclopedia of Philosophy, "Pascal’s Wager about God"](https://iep.utm.edu/pasc-wag/)
 [^2]: [Wikipedia, "Pascal’s Wager"](https://en.wikipedia.org/wiki/Pascal%27s_wager)
