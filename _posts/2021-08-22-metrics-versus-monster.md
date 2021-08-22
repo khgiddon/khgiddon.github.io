@@ -24,7 +24,7 @@ The short answer is that we can evaluate the tradeoff of an increase in Total Cl
 
 The longer answer is that we do the same thing (evaluate the tradeoffs), but we need to be conscious of the distributional effects across the user base.
 
-## Distributional effects and the utility monster
+### Distributional effects and the utility monster
 
 For example, if we have fewer users doing *x* number of Total Clickthroughs, maybe this is "less good" (in terms of its total ecosystem value to our app) than more users doing *y* number of Total Clickthroughs (where *x* > *y*). That is, there may be *diminishing marginal returns* to Total Clickthroughs on the user level that justify a product choice with fewer total Total Clickthroughs.
 
@@ -50,7 +50,7 @@ To take the concept even further, we can bring in the _utility monster_. The [ut
 
 The utility monster is an exaggerated version of what can happen through naive shipping decisions based only on a target metric. By sacrificing latency and DAU we might risk creating “Recommended Content Feed utility monsters” who do tons of Total Clickthroughs, while we worsen the experience for a substantial segment of the population. The impact of a marginal Total Clickthrough is likely greatest if spread across a greater number of users. If we looked at Total Clickthroughs exclusively without considering distributional effects, we theoretically could be unknowingly creating a Recommended Content Feed experience that only caters to a smaller segment of utility monsters (e.g., users who don’t care about latency), with ecosystem affects that only become apparent later down the line.
 
-## How do we incorporate this into our decision-making?
+### How do we incorporate this into our decision-making?
 
 The most sophisticated way of dealing with this challenge is always looking at user-distributional effects, finding some way to construct the marginal returns curve for metric X, and converting every metric to its total utility after considering marginal/distributional effects (as we did above for the Algorithm 1 vs. Algorithm 2). But that is difficult and likely overkill for the vast majority of use cases (assuming a time-constrained analytics team with competing priorities).
 
