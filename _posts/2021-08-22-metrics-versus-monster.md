@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metrics versus the monster: distributional tradeoffs in experiment evaluation
+title: Metrics versus the monster
 ---
 
 *Note: This post is intended for practioners of experiment and A/B test evaluation in technology settings. I argue that proposed product changes that increase a target metric while reducing a participation metric (e.g., daily active users) should require elevated scrutiny.*
