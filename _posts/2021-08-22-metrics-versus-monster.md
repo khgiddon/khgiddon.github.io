@@ -3,9 +3,7 @@ layout: post
 title: Metrics versus the monster: distributional tradeoffs in experiment evaluation
 ---
 
-*Note: This post is intended for practioners of experiment and A/B test evaluation in technology settings.*
-
---
+*Note: This post is intended for practioners of experiment and A/B test evaluation in technology settings. I argue that proposed product changes that increase a target metric while reducing a participation metric (e.g., daily active users) should require elevated scrutiny.*
 
 Let's say we manage a product surface within a social media app that involves some type of ranking algorithm – for example, a Recommended Content Feed.  Let's also assume: 
 
@@ -28,7 +26,7 @@ The longer answer is that we do the same thing (evaluate the tradeoffs), but we 
 
 ## Distributional effects and the utility monster
 
-For example, if we have fewer users doing x number of Total Clickthroughs, maybe this is "less good" (in terms of its total ecosystem value to our app) than more users doing y number of Total Clickthroughs (where x > y). That is, there may be diminishing marginal returns to Total Clickthroughs on the user level that justify a product choice with fewer total Total Clickthroughs.
+For example, if we have fewer users doing *x* number of Total Clickthroughs, maybe this is "less good" (in terms of its total ecosystem value to our app) than more users doing *y* number of Total Clickthroughs (where *x* > *y*). That is, there may be *diminishing marginal returns* to Total Clickthroughs on the user level that justify a product choice with fewer total Total Clickthroughs.
 
 Let’s say we two users, User A and User B. We have a choice of two ranking algorithms for media. Algorithm 1 leads to User A doing one Total Clickthrough, and User B doing one Total Clickthrough. Algorithm leads only leads to User A doing two Total Clickthroughs:
 
