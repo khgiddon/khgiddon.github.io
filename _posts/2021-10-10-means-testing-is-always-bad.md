@@ -3,7 +3,7 @@ layout: post
 title: Means testing is always bad
 ---
 
-My preferred formal definition of politics is the authoritative allocation of resources. [[^1]] Resources — money, healthcare, oil — are subject to scarcity, and thus politics becomes the authoritative allocation of *scarce* resources. 
+My preferred formal definition of politics is the authoritative allocation of resources. Resources — money, healthcare, oil — are subject to scarcity, and thus politics becomes the authoritative allocation of *scarce* resources. 
 
 On the optimal distribution of these scarce resources, different people hold different moral values and political judgments. Should society provide assistance to the homeless in securing housing? Should we levy additional taxation on those who contribute to climate change, to make felt the hidden social cost? Should a child die because their parents cannot afford healthcare? (Yes; yes; no.) Nonetheless, because of the diversity of political opinion, categorical statements on the optimal allocation of scarce resources *that can be broadly agreed upon* are hard to come by.
 
@@ -37,6 +37,3 @@ The perceived problem that means testing purports to solve — that those who do
 
 
 *Note: Considering this blog often concerns product analytics, apologies to any reader who saw the title concerning “means testing” and thought this post concerned some kind of statistical test about the average of a variable.*
-
-
-[^1]: I don’t have a formal citation for this, but it’s been lodged in my head ever since taking Morone's City Politics course during my sophomore year at Brown.
