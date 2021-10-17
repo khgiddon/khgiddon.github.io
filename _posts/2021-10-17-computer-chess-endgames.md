@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Computer chess endgames and the fifty-move rule
+title: Machine beats man on ancient front
 ---
 
-The computer scientist Ken Thompson has an unusual distinction: his research has caused changes in the rules of chess, multiple times. Thompson has a [rich resume](https://en.wikipedia.org/wiki/Ken_Thompson), but it's quite a feather in one's cap to lay claim to changing a game that's been around for hundreds of years, and whose governing body is known for its conservatism in regard to change. Specifically, Thompson's work on chess endgames carved out several exceptions to the *fifty-move rule.* That is, until chess's venerable overlords threw up their hands and said they were getting rid of the computer-aided exceptions entirely.
+The computer scientist Ken Thompson has an unusual distinction: his research has caused changes in the rules of chess, multiple times. Thompson has a [rich resume](https://en.wikipedia.org/wiki/Ken_Thompson), but it's quite a feather in one's cap to lay claim to changing a game that's been around for hundreds of years, and whose governing body is known for its conservatism in regard to change. Specifically, Thompson's work on chess endgames carved out several exceptions to the *fifty-move rule.* That is, he did until chess's venerable overlords threw up their hands and said they were getting rid of the computer-aided exceptions entirely.
 
 ### Endgames in computer chess
 
