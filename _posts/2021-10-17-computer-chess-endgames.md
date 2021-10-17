@@ -24,9 +24,11 @@ terminal positions, from the end positions.
 
 Using this method, Thompson constructed endgame tablebases, where from a given board position, he could determine whether with ideal play from both players, the position was a win, loss, or draw, and how to achieve that result. In the 1980s, Thompson was able to compute this for all four-piece positions and five-piece positions. By his interview in 2005, all six-piece positions were solved, by the next generation of algorithms. As of the writing of this post in 2021, all seven-piece positions have been solved, and [some positions from the eight-piece tablebases are in progress](https://www.chess.com/blog/Rocky64/eight-piece-tablebases-a-progress-update-and-some-results). (It's been [estimated](https://www.chessprogramming.org/Syzygy_Bases) that running the full calculations for the eight-game tables would require approximately $700,000 of computing power today.)
 
-Thompson [published his tablebases in 1991](https://www.chessprogramming.org/Endgame_Tablebases) under the caption "Play Chess with God." Reviewing some optimal endgame plays, the chess player Tim Krabbé [explained](https://research.swtch.com/chess) that:
+Thompson [published his tablebases](https://www.chessprogramming.org/Endgame_Tablebases) under the caption "Play Chess with God." Reviewing some optimal endgame plays, the chess player Tim Krabbé [explained](https://research.swtch.com/chess) that:
 
 > Playing over these moves is an eerie experience. They are not human; a grandmaster does not understand them any better than someone who has learned chess yesterday. The knights jump, the kings orbit, the sun goes down, and every move is the truth. It's like being revealed the Meaning of Life, but it's in Estonian.
+
+The *New York Times* devoted [a story in 1986](https://www.nytimes.com/1986/08/26/science/machine-beats-man-on-ancient-front.html) to Thompson's tablebases  with the headline "MACHINE BEATS MAN ON ANCIENT FRONT." (Man, they truly don't write headlines like they used to.) One grandmaster is quoted: "By dint of brute force, the program has unearthed all kinds of results which eluded us. It was mindboggling for me."
 
 Aesthetic considerations aside, Thompson's endgame tables also ran up against some long-held assumptions in the chess world, and posed problems for the fifty-move rule.
 
