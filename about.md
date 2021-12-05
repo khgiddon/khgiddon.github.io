@@ -6,7 +6,7 @@ permalink: /about/
 
 <img src="/images/acadia.JPG" style="max-height:400px;">
 
-Hi, I'm Kyle. You can reach me at [kylegiddon@gmail.com](mailto:kylegiddon@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/kyle-giddon/). On this blog, I write whatever's currently top of mind – some topics include: best practices in product analytics, quantitative analyses on various subjects, and a healthy dose of miscellany.
+Hi, I'm Kyle. You can reach me at [kylegiddon@gmail.com](mailto:kylegiddon@gmail.com), or check out my [LinkedIn](https://www.linkedin.com/in/kyle-giddon/). On this blog, I write whatever's currently top of mind – some topics include: best practices in product analytics, quantitative analyses on various subjects, or whatever happens to interest me on a given day.
 
 I'm currently a Data Scientist at Instagram. Previously, I led the product analytics team at [Jobcase](https://www.jobcase.com/) in Cambridge, MA. My role involved founding and building the team to provide data-driven insights to solve business and product problems, deliver growth, and apply quantitative rigor to key decisions.
 
