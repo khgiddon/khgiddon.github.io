@@ -46,5 +46,6 @@ Where does this leave us? I think there are two takeaways:
 - Shipping decisions will always involve a mental "black box" model of converting the relevant data and other factors into a binary ship/no ship decision. Bayesian A/B testing makes more of the math explicit and can help make better decisions more often, but still doesn't contain the full set of product considerations required for a decision.
 - Shipping decisions might apply the p-value in a statistically incorrect way by informally treating it as a probability. Based on my experience this occurs with some frequency, but my intuition is that this still leads to the correct shipping decision most of the time.
 
+--
 
 *Thanks to Will Seifstad for comments on a draft of this post!*
