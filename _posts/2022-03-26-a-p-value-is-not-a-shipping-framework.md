@@ -47,4 +47,4 @@ Where does this leave us? I think there are two takeaways:
 - Shipping decisions might apply the p-value in a statistically incorrect way by informally treating it as a probability. Based on my experience this occurs with some frequency, but my intuition is that this still leads to the correct shipping decision most of the time.
 
 
-* Thanks to Will Seifstad for comments on a draft of this post!*
+*Thanks to Will Seifstad for comments on a draft of this post!*
