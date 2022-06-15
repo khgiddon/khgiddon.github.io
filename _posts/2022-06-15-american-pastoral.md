@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A brief reflection on Roth's *American Pastoral*
+title: A brief reflection on Roth's "American Pastoral"
 ---
 
 I've long admired the writing of Philip Roth. Though I've read ten of his novels, it somehow took me until this year to pick up what many regard as his finest work, *American Pastoral*. The book follows the turmoil in the life of Swede Levov, former star athlete and successful businessman, after his daughter commits an act of political terrorism in 1968 in protest of the Vietnam War.
