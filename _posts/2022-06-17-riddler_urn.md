@@ -9,7 +9,7 @@ Over at FiveThirtyEight, this week's [Riddler Classic](https://fivethirtyeight.
 
 In a typical Bayesian inference problem, we're asked: given some knowledge on the state of the world, after having observed some new data, how do we update our knowledge? This is not a question of the same form; it's asking us the converse! Given some data, what's your best estimate on the state of the world?
 
-## Likelihood
+### Likelihood
 
 For a question of this type, the key concept that guides us toward the solution to this problem is **likelihood**. If one is used to thinking in terms of probabilities, likelihood can be difficult to wrap one's head around. The most intuitive explanation I've found comes from [an article by Alexander Etz](https://psyarxiv.com/85ywt). He writes: "Likelihood is a strange concept, in that it is not a probability, but it is proportional to a probability. The likelihood of a hypothesis (H) given some data (D) is proportional to the probability of obtaining D given that H is true. ... For conditional probability, the hypothesis is treated as a given and the data are free to vary. For likelihood, the data are treated as a given and the hypotheses vary."
 
@@ -22,7 +22,7 @@ Before going any further, what do we know about the answer? We can pick out two 
 
 So we've already limited our potential solutions.
 
-## Using the hypergeometric distribution
+### Using the hypergeometric distribution
 
 Let's start by considering the case of 22 balls and assume this is the true state of the world for now.
 
@@ -36,7 +36,7 @@ The likelihood from different hypotheses can be interpreted as a ratio --- for e
 
 We're interested in finding the hypothesis resulting in the *maximum likelihood*, which will be our answer.
 
-## Finding maximum likelihood
+### Finding maximum likelihood
 
 We ran the likelihood calculation on the 22-ball case, but we can run the same calculation on the 24-ball case, the 26-ball case, and so on. The number of balls in the urn might be very high, but let's start by running from 22 balls up to 60 balls to see what we find.
 
