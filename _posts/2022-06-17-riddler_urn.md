@@ -48,7 +48,7 @@ Our maximum likelihood so far is at **34 balls** --- though it's quite close t
 
 My intuition for this result is as follows: the 22-ball case is less likely than others because this requires every single white ball in the urn being selected. This will be less likely than hypotheses in which there's more possible "solutions" to draw the 11 white balls selected.
 
-At the other extreme, what if there were a near-infinite number of balls? As the number of balls approaches infinity, we'd expect the number of red balls selected to become closer and closer to 50%, because it makes the fact that balls are selected *without replacement* matter less and less. If there were an infinite number of balls, replacement would effectively occur!
+At the other extreme, what if there were a near-infinite number of balls? As the number of balls approaches infinity, we'd expect the number of red balls selected to become closer and closer to 50%, because it makes the fact that balls are selected *without replacement* matter less and less. If there were an infinite number of balls, replacement would effectively occur! Our actual data doesn't have 50% red balls, so by adding more balls to the urn, it makes our observed data less likely.
 
 Thus the answer ends up somewhere in the middle (34) --- greater than the minimum number of balls, and less than infinity.
 
