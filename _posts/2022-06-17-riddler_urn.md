@@ -57,3 +57,5 @@ Rather than stopping at 60 balls, let's compute the first 10,000 and see if this
 ![Ball likelihood 2](/images/riddler_urns_2.png)
 
 Seems to make sense --- and though we haven't tested an infinite number of balls, based on the logic above, we're comfortable saying our answer is 34.
+
+One note on these graphs: likelihoods aren't probabilities, which is why the likelihood of every data point doesn't add up to 100%. Each data point is about a given *hypothesis*, and we could test an infinite number of hypotheses.
