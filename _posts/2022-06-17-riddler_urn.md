@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An urn and balls problem at the Riddler
+title: A twist on an urn problem at The Riddler
 ---
 
 Over at FiveThirtyEight, this week's [Riddler Classic](https://fivethirtyeight.com/features/can-you-switch-a-digit/) question truly is a "classic" varietal: a problem about drawing colored balls selected from an urn. We are told:
@@ -54,6 +54,6 @@ Thus the answer ends up somewhere in the middle (34) --- greater than the minimu
 
 Rather than stopping at 60 balls, let's compute the first 10,000 and see if this logic seems to hold up.
 
-![Ball likelihood 1](/images/riddler_urns_2.png)
+![Ball likelihood 2](/images/riddler_urns_2.png)
 
 Seems to make sense --- and our answer is 34.
