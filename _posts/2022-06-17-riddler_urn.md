@@ -13,14 +13,14 @@ In a typical Bayesian inference problem, we're asked: given some knowledge on th
 
 For a question of this type, the key concept that guides us toward the solution to this problem is **likelihood**. If one is used to thinking in terms of probabilities, likelihood can be difficult to wrap one's head around. The most intuitive explanation I've found comes from [an article by Alexander Etz](https://psyarxiv.com/85ywt). He writes: "Likelihood is a strange concept, in that it is not a probability, but it is proportional to a probability. The likelihood of a hypothesis (H) given some data (D) is proportional to the probability of obtaining D given that H is true. ... For conditional probability, the hypothesis is treated as a given and the data are free to vary. For likelihood, the data are treated as a given and the hypotheses vary."
 
-For our problem, the data are fixed (19 balls are chosen without replacement, we draw 8 red balls and 11 white balls) and the best hypothesis is what we're interested in solving for (how many balls are there?). As Etz writes above, we can find the likelihood for a given hypothesis by calculating the probability of obtaining our data from that hypothesis, or set of facts about the world.
+For our problem, the data are fixed (19 balls are chosen without replacement, we draw 8 red balls and 11 white balls) and the best hypothesis is what we're interested in solving for (how many balls are there?). As Etz writes above, we can find the likelihood for a given hypothesis by calculating the probability of obtaining our data from that hypothesis.
 
-Before going any further, what do we know about the answer? We can pick out two things:
+Before going any further, what do we know about the answer? We can deduce two restrictions:
 
 - There must be at least 22 balls. We selected 11 white balls and there are an equivalent number of red balls, so there are at least 11 red balls too. 
 - The number of balls must be even. Otherwise the number of red and white balls could not be equivalent.
 
-So we've already limited our potential solutions.
+So before moving on we've already limited our potential solutions.
 
 ### Using the hypergeometric distribution
 
@@ -44,7 +44,7 @@ From our [code](https://github.com/khgiddon/misc/blob/main/riddler_classic_2022_
 
 ![Ball likelihood 1](/images/riddler_urns_1.png)
 
-Our maximum likelihood is at **34 balls** --- though it's quite close to 32 balls and 36 balls so is hard to discern visually. We see the shape of the curve rise from 22 balls to find a maximum at 34, then start declining.
+Our maximum likelihood so far is at **34 balls** --- though it's quite close to 32 balls and 36 balls so is hard to discern visually. We see the shape of the curve rise from 22 balls to find a maximum at 34, then start declining.
 
 My intuition for this result is as follows: the 22-ball case is less likely than others because this requires every single white ball in the urn being selected. This will be less likely than hypotheses in which there's more possible "solutions" to draw the 11 white balls selected.
 
@@ -56,4 +56,4 @@ Rather than stopping at 60 balls, let's compute the first 10,000 and see if this
 
 ![Ball likelihood 2](/images/riddler_urns_2.png)
 
-Seems to make sense --- and our answer is 34.
+Seems to make sense --- and though we haven't tested an infinite number of balls, based on the logic above, we're comfortable saying our answer is 34.
