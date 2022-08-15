@@ -5,7 +5,7 @@ title: Technical construction of cohort retention metrics for consumer products
 
 Cohort retention is a critical metric for evaluating [product-market fit](https://greatness.floodgate.com/episodes/andy-rachleff-on-how-to-know-if-youve-got-product-market-fit-XxGvX8DH/transcript) in consumer tech. When a product satisfies user needs in the relevant market, users will continuously return to that product over time.
 
-Accordingly, the *correct* technical construction of retention metrics is necessary to evaluate a product --- How close is this product to achieving product-market-fit? Is our product improving over time? --- and can also identify insights that improve the business. Cutting the retention data by variables like demographics, traffic source, or other custom user segments will also show if there's a particular group of users that are retaining better over time, which can be used to inform product and marketing decisions.
+Accordingly, the *correct* technical construction of retention metrics is necessary to correctly evaluate a product --- How close is this product to achieving product-market-fit? Is our product improving over time? --- and can also identify insights that improve the business. Cutting the retention data by variables like demographics, traffic source, or other custom user segments will also show if there's a particular group of users that are retaining better over time, which can be used to inform product and marketing decisions.
 
 There are many retention curves available online, some for real products (like [Netflix](https://www.vox.com/recode/22311987/paramount-netflix-streaming-wars-charts-antenna)) but most as an example. When example retention curves are posted, I've often found that the y-axis is usually labeled nondescriptly as "Retention," often without further explanation for how it's calculated. But there are critical choices in the technical construction of retention metrics which may be obscure to business users. Making the wrong choices can risk misinterpretation leading to incorrect choices for the product and business.
 
@@ -19,7 +19,7 @@ A cohort-based metric groups users into a *time-based* cohort and tracks how the
 
 This cohort enables comparative analysis between groups of users over time, for evidence of increasing or decreasing retention (and product-market fit). We can contrast this with a non-cohort-based retention metric, such as "percent of currently active users who remain active over next N days." The reason the latter is nonstandard is because it does not allow us to compare groups of users over time who are in similar stages of their product lifecycle. Cohort views let us look at, for example, the August 2021 cohort in comparison to the July 2021 cohort 60 days after registration, for evidence of improved retention.The problem with looking for the same increase with a "rolling," non-cohort-based retention metric is that all users are thrown together in one number without controlling for the stage of the user lifecycle. If you increased your marketing spend and drove more signups, you might see retention decreasing just by mix-shifts in the user population, even if retention for new users on a cohort basis remained flat.
 
-## 2. Constructing a cohort retention metric
+## Constructing a cohort retention metric
 
 A cohort retention metric requires choosing five parameters:
 
