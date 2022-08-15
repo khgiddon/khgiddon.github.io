@@ -59,6 +59,8 @@ In this case we have:
 4. The evaluation window: 7 days
 5. The trigger date grouping: every month
 
+Our y-axis is retention, defined as the number of retained users (who did the retention action in the 7 day window preceding the evaluation date) divided by the number of users in the cohort (who did the trigger action in a given month).
+
 The labeled lines refer to each of four monthly cohorts from May 1 through August 9. Older cohorts have more data points because we have been able to measure those cohorts for longer.
 
 When we look at what we learn from this, we see cohorts appear to perform similarly over these months (there might be minor retention improvement in July), and that the retention curve plateaus around 10%. This plateau can indicate that this product is approaching product-market-fit for this small group, because this group has stopped losing users of the product.
