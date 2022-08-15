@@ -3,13 +3,13 @@ layout: post
 title: Technical construction of cohort retention metrics for consumer products
 ---
 
-Cohort retention is a critical metric for evaluating [product-market fit](https://greatness.floodgate.com/episodes/andy-rachleff-on-how-to-know-if-youve-got-product-market-fit-XxGvX8DH/transcript) in consumer tech. When a product satisfies user needs in the relevant market, users will continuously return to that product over time.
+Cohort retention metrics are critical to evaluate [product-market fit](https://greatness.floodgate.com/episodes/andy-rachleff-on-how-to-know-if-youve-got-product-market-fit-XxGvX8DH/transcript) in consumer tech. If a product is satisfying user needs in the relevant market, retention metrics will reflect that users continually return to the product over time.
 
-Accordingly, the *correct* technical construction of retention metrics is necessary to correctly evaluate a product --- How close is this product to achieving product-market-fit? Is our product improving over time? --- and can also identify insights that improve the business. Cutting the retention data by variables like demographics, traffic source, or other custom user segments will also show if there's a particular group of users that are retaining better over time, which can be used to inform product and marketing decisions.
+Accordingly, *correct* technical construction of retention metrics is a necessary condition to both correctly assess product-market fit and identify insights that improve the business. Cutting retention data by variables like demographics, traffic source, or other custom user segments will show if there's a particular group of users that are retaining better over time, which can be used to inform subsequent product and marketing decisions.
 
-There are many retention curves available online, some for real products (like [Netflix](https://www.vox.com/recode/22311987/paramount-netflix-streaming-wars-charts-antenna)) but most as an example. When example retention curves are posted, I've often found that the y-axis is usually labeled nondescriptly as "Retention," often without further explanation for how it's calculated. But there are critical choices in the technical construction of retention metrics which may be obscure to business users. Making the wrong choices can risk misinterpretation leading to incorrect choices for the product and business.
+There are many retention curves available online, some for real products (like [Netflix](https://www.vox.com/recode/22311987/paramount-netflix-streaming-wars-charts-antenna)) but most as an example. When example retention curves are posted, I've often found that the y-axis is usually labeled nondescriptly as "Retention," often without further explanation for how it's calculated. But proper construction of these metrics is far from obvious. Making the wrong technical design choices can risk misinterpretation leading to incorrect choices for the product and business.
 
-This post is intended for Product Managers, Product Analysts, Engineers working with retention metrics for the first time or wanting a refresher on their correct construction. Crafting a retention metric purely from first principles may be challenging and prone to a couple pitfalls.
+This post is intended for Product Managers, Product Analysts, Engineers as a guide to constructing retention metrics.
 
 ## Why cohorts?
 
