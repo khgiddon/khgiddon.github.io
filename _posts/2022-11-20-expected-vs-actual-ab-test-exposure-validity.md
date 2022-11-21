@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expected vs. actual exposures in A/B tests
+title: One simple check to diagnose experiment setup failures
 ---
 
 All successful A/B tests are alike; each unsuccessful A/B test is unsuccessful in its own way.
