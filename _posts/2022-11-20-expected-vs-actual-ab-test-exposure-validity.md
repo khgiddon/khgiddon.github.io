@@ -12,7 +12,7 @@ Two caveats on definitions here:
 1. I define failure here as a test that does not produce results that are usable to make the intended shipping decision, or an incorrect shipping decision is made. (A properly run experiment that results in a "no ship" decision is not a failure.)
 2. A failed engineering implementation is not *necessarily* the fault of the implementing engineer. The test spec (as written by an analyst, product manager, or other engineer) may have omitted crucial details or set up the test for failure from the very beginning. Responsibility also lies with the analyst for catching errors of implementation visible in the data.
 
-With this in mind, I've found that one (relatively simple) validity check can diagnose issues with A/B test setup, and I have not seen this check mentioned in A/B testing workflows. The validity check is: **After launching the experiment, does the number of exposed users in the experiment match the expected number of exposed users?**
+With this in mind, I've found that one (relatively simple) validity check can diagnose issues with A/B test setup, and I have not seen this check mentioned in A/B testing workflows. The validity check is: **After launching the experiment, does the number of exposed users in the experiment match the *expected* number of exposed users?**
 
 In my experience, this type of analysis has detected issues with test setup a material percentage of the time. The passing of this validity check can provide confidence that the experiment was indeed implemented correctly. 
 
