@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Expected vs. actual exposures: a necessary validity check for A/B tests
+title: Expected vs. actual exposures in A/B tests
 ---
 
 All successful A/B tests are alike; each unsuccessful A/B test is unsuccessful in its own way.
