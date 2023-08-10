@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mailcandler" in McCarthy's novel "The Passenger"
+title: "Mailcandler" in Cormac McCarthy
 ---
 
 In my [review of Cormac McCarthy's *The Passenger*](http://www.kylegiddon.com/cormac-mccarthy-the-passenger/), I quoted the passage below that contains the word "mailcandler" and noted that McCarthy's prose may require a dictionary, or may not appear in one at all. Checking traffic to this blog a couple days ago, I was surprised to find that the most common organic search term leading to a session was "mailcandler," presumably from McCarthy readers looking for a definition. But I did not provide one in my original post, and neither does any dictionary, so I hope to rectify that here.
