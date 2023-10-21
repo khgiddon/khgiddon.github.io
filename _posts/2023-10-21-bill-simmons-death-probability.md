@@ -21,12 +21,12 @@ Let us first consider probability of death. Probabilities of death given age and
 - Assumption: Our model is yearly. We'll assume that the probability of death is constant over the course of a year.
 - Assumption: All listeners are American. While this isn't true, this enables us to use the SSA actuarial tables.
 - Assumption: Listeners of the podcast are representative of the general population in terms of their health.
-- Assumption: The probability of death while listening to the podcast is independent of the overall probability of death. That is, we assume that listening to the podcast does not affect the probability of death for a given listener. Perhaps this isn't quite true, because listeners may be listening to the podcast while driving where death probability is higher vs. staying at home, or one of Bill's takes may be so bad that it causes a listener to just keel over and end it all. But we'll go with it.
+- Assumption: The probability of death while listening to the podcast is independent of the overall probability of death. That is, we assume that listening to the podcast does not affect the probability of death for a given listener. Perhaps this isn't quite true, because listeners may be listening to the podcast while driving where death probability is higher vs. staying at home, or one of Bill's takes may be so bad that it causes a listener to just keel over and end it all. Or you could think that for those on their deathbed, they might finally put down their headphones and be less likely to be listening. But we'll go with the assumption of independence.
 
 We need to make some assumptions about listener ages and genders. I could not find good statistics about this online, so we'll make the following assumptions:
 
 
-- Assumption: Bill's listeners' ages follow a uniform distribution between age 18 and age 75. That is, the probability of a listener being age $x$ is $P_{\text{Age}}(x) = \frac{1}{75 - 18}$.
+- Assumption: Bill's listeners' ages follow a uniform distribution between age 18 and age 75. That is, the probability of a listener being age $$x$$ is $$P_{\text{Age}}(x) = \frac{1}{75 - 18}$$.
 - Assumption: Bill's listeners are 100% male. I know this isn't true in practice but it's close enough, and this won't be a significant source of error in the model.
 
 Now we need to determine the percentage of time in a given year that the average listener spends listening to the podcast. A listener is defined as someone who downloads and listens to the podcast at least once a year. This is important for our model later: a listener is not the listener of a *given* episode, but someone who listens to the podcast at least once in a year (because we need to be able to join this with statistics on someone's death probability in a given year). 
@@ -47,11 +47,11 @@ The percentange of time in a year that a user spends listening to the podcast re
 
 Therefore the percent of time spent listening to Bill is:
 
-$$ \tag{1} \text{\ Time spent listening to Bill Simmons} = \\\text{Podcasts per year} \\ \times \text{Length of each podcast (in minutes)} \\ \times \text{Episode completion \%} \\ \times \text{\% of time Bill is speaking} $$
+$$ \displaylines{\tag{1} \text{Time spent listening to Bill Simmons} = \\ \text{Simmons podcasts per year} \\ \times \text{Length of each podcast (in minutes)} \\ \times \text{Episode completion pct} \\ \times \text{Pct of time Bill is speaking}} $$
 
 Now we can input the values using our assumptions above, and we divide by the total number of minutes per year to get the percentage of time spent listening to Bill Simmons:
 
-$$ \tag{2} \text{\% of time spent listening to Bill Simmons} = \frac{144 \times 93 \times 0.05 \times 0.75}{525,600} = 0.096\% $$
+$$ \tag{2} \text{Pct of time spent listening to Bill Simmons} = \frac{144 \times 93 \times 0.05 \times 0.75}{525,600} = 0.096\% $$
 
 Or, the average listener for a given year spends 0.096% of their time listening to Bill Simmons.
 
@@ -61,9 +61,9 @@ $$ \tag{3} P(BD)_{\text{y}} = P(D)_{\text{age, gender}} \times BR $$
 
 Where:
 
-- $P(BD)_{\text{y}}$ is the probability of death while listening to Bill Simmons ("Bill Death") in a given year *y*
-- $P(D)_{\text{y}}$ is the probability of any death, conditional on the listener's age and gender
-- $BR $ is the "Bill Ratio," or the % of time spent listening to Bill Simmons. From equation (2) we know this is 0.096%.
+- $$ P(BD)_{\text{y}} $$ is the probability of death while listening to Bill Simmons ("Bill Death") in a given year *y*
+- $$ P(D)_{\text{y}} $$ is the probability of any death, conditional on the listener's age and gender
+- $$ BR $$ is the "Bill Ratio," or the % of time spent listening to Bill Simmons. From equation (2) we know this is 0.096%.
 
 Now we can calculate the probability of death while listening to Bill Simmons for a given listener in a given year. We need to extend this out over time for all of Bill's listeners since he first started podcasting.
 
