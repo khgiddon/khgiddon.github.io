@@ -97,7 +97,7 @@ Substituting in equation (3) for $P(BD)_{\text{y,}l}$, we get:
 $$ \tag{6} P(\text{At least one death})_{\text{y}} = 1 - \prod_{l=1}^{n_{y}} \left(1 - P(D)_{\text{age}_{l}, \text{gender}_{l}} \times BR \right)
  $$
 
-To find a solution to the equation above using the actuarial tables provided by the Social Security Administration, we'll write a script in Python. The script is available [here](insert_url).
+To find a solution to the equation above using the actuarial tables provided by the Social Security Administration, we'll write a script in Python. The script is available [here](https://github.com/khgiddon/misc/blob/main/simmons/solve.ipynb).
 
 After running this script, we find that *the probability of at least one death while listening to Bill Simmons is nearly 100%*, just in one given year. So not only is it a near certainty that someone has died while listening to Bill Simmons, but it's likely that someone has died while listening to Bill Simmons every single year.
 
