@@ -1,6 +1,7 @@
 ---
 layout: post
 title: It is a near certainty that multiple people have died while listening to Bill Simmons
+usemathjax: true
 ---
 
 Over on Reddit, [someone asked](https://www.reddit.com/r/billsimmons/comments/17cvzm0/has_anyone_died_listening_to_the_bs_pod/) whether anyone has ever died while listening to podcaster Bill Simmons. It would be an undignified way to go: having the last thing in one's head be one of Bill's nuclear-level takes on sports or pop culture like saying that [Robert Forster isn't good in _Jackie Brown_](https://twitter.com/carternixon/status/1229872026602496001). Ugh. (Robert Forster is great in _Jackie Brown_.)
