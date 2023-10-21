@@ -11,7 +11,7 @@ The title does give away the result: it is a near certainty that not only one bu
 
 ### The death model
 
-Let's describe the general mathematical model we'll be filling out. We need to make a series of assumptions in order to specify the model. The goal of these assumptions is to balance the complexity of the model with the precision of the model, and overall we'll be looking for a ballpark figure.
+We first describe the general mathematical model we'll be filling out, which will require a series of assumptions. The goal of these assumptions is to balance the complexity of the model with the precision of the model, and overall we'll be looking for a ballpark figure.
 
 First, we want to model the probability of death while listening to Simmons for _a given listener of the podcast_, in a given year. Then we will take a cohort approach later and look at all listeners of the podcast  over time.
 
@@ -28,18 +28,20 @@ We need to make some assumptions about listener ages and genders. I could not fi
 - Assumption: Bill's listeners' ages follow a uniform distribution between age 18 and age 75. That is, the probability of a listener being age $x$ is $P_{\text{Age}}(x) = \frac{1}{75 - 18}$.
 - Assumption: Bill's listeners are 100% male. I know this isn't true in practice but it's close enough, and this won't be a significant source of error in the model.
 
-Now we need to determine the percentage of time in a given year that the average listener spends listening to the podcast. A listener is someone who downloads and listens to the podcast at least once a year. This is important for our model later: a listener is not the listener of a *given* episode, but someone who listens to the podcast at least once in a year (because we need to be able to join this with statistics on someone's death probability in a given year). This can be modeled as the total number of annual podcast minutes released by Simmons, multiplied by the percentage of these minutes listened to by the average listener, all divided by the total number of minutes in a year. 
+Now we need to determine the percentage of time in a given year that the average listener spends listening to the podcast. A listener is defined as someone who downloads and listens to the podcast at least once a year. This is important for our model later: a listener is not the listener of a *given* episode, but someone who listens to the podcast at least once in a year (because we need to be able to join this with statistics on someone's death probability in a given year). 
+
+For each listened, we want to find the percentage of the time they are listening to Bill Simmons. This can be modeled as the total number of annual podcast minutes released by Simmons, multiplied by the percentage of these minutes listened to by the average listener, all divided by the total number of minutes in a year. 
 
 - Assumption: The relationship between how often a given listener listens to the podcast and death probability is independent. That is, more frequent listeners are not more likely to die on a rate basis. This enables to use averages and simplify the model.
-- Assumption: Time listening is indepedent of listener age. That is, older listeners are not more likely to listen to the podcast more often than younger listeners. 
+- Assumption: Time spent listening is indepedent of listener age. That is, older listeners are not more likely to listen to the podcast more often than younger listeners. 
 
 We also must decide whether we care about dying while Bill himself is speaking, or whether dying one of his guests or cohosts is speaking also counts. I believe the spirit of the original question is about Bill Simmons himself, so we'll go with that.
 
 The percentange of time in a year that a user spends listening to the podcast requires the following assumptions:
 
 - Assumption: Simmons releases a podcast 2–3 times per week, or 12 times per month / 144 times per year, including the *Bill Simmons Podcast* and its previous iterations and as a host on *The Rewatchables* podcast.
-Assumption: The average length of these podcasts is 93 minutes—this assumption is based on the measured length of the ten month-to-date October episodes. (This length is true recently but might not be true for early iterations of the podcast like the _BS Report_, but we'll go with it throughout time. Measuring user the October lengths only also doesn't take into account any variation in average episode lengths due to seasonality.) We'll also ignore the length of ad reads (which on Spotify aren't typically included in the episode lengths), even though it is Simmons usually speaking during the ad reads. The thought of dying while listening to Bill read an ad for SimpliSafe is too depressing to pursue further. We'll also ignore Bill's cancelled [HBO show](https://youtube.com/watch?v=y1dGNbtHdV8&ab_channel=HBO), because I don't know in that case if we can safely assume that listening and death are independent.
-- Assumption: The average listener listens to 5% of total minutes of each podcast. This is a guess on a very important assumption, but remember we're dealing with an *average* here of anyone who downloads and listens to the podcast over a year, including counting listeners who might only listen for a few minutes a year. If this seems low, it's because we're lumping in power-listeners with casual listeners.
+- Assumption: The average length of these podcasts is 93 minutes—this assumption is based on the measured length of the ten month-to-date October episodes. (This length is true recently but might not be true for early iterations of the podcast like the _BS Report_, but we'll go with it throughout time. Measuring  the October lengths only also doesn't take into account any variation in average episode lengths due to seasonality.) We'll also ignore the length of ad reads (which on Spotify aren't typically included in the episode lengths), even though it is Simmons usually speaking during the ad reads. The thought of dying while listening to Bill read an ad for SimpliSafe is too depressing to pursue further. We'll also ignore Bill's cancelled [HBO show](https://youtube.com/watch?v=y1dGNbtHdV8&ab_channel=HBO), because I don't know in that case if we can safely assume that listening and death are independent.
+- Assumption: The average listener listens to 5% of total minutes of each podcast. This is a crticial assumption. But remember we're dealing with an *average* here of anyone who downloads and listens to the podcast over a year, including counting listeners who might only listen for a few minutes a year. If this seems low, it's because we're lumping in power-listeners with casual listeners.
 - Assumption: Across all these podcasts, Bill is speaking 75% of the time. This is a guess. One could scrape all the episode transcripts and generate statistics about word count to get more scientific about this in particular.
 
 Therefore the percent of time spent listening to Bill is:
@@ -73,7 +75,7 @@ In 2009, the podcast was [downloaded over 25 million times](http://www.espnmedia
 
 But for our model we're looking for the number of yearly listeners (who download at least one episode), not the number of listeners per episode. Data on this is difficult to come by. We're going to assume 2 million annual unique listeners (some of who might only listen to one episode), meaning that each episode is downloaded by somewhere betwen 25% and 50% of annual unique listeners.
 
-We could model the number of listeners per year differently for each year, but since Bill's podcast became popular very quickly after launching, 
+We could model the number of listeners per year differently for each year, but since Bill's podcast became popular very quickly after launching, we'll say:
 
 - Assumption: Bill's podcasts have had 2 million unique listeners per years since 2007.
 
@@ -83,7 +85,7 @@ We could model this number separately by year to account for Bill's growing popu
 
 Now we can put all the pieces together.
 
-If the probability of death while listening to Bill Simmons for a given listener in a given year *y* is $P(BD)_{\text{y}}$, then the probability of at least one death for two listeners *l* in a given year is:
+If the probability of death while listening to Bill Simmons for a given listener *l* in a given year *y* is $P(BD)_{\text{y}}$, then the probability of at least one death for two listeners in a given year is:
 
 $$ \tag{4} P(\text{At least one death})_{\text{y}} = 1 - (1 - P(BD)_{\text{y,}l_1}) \times (1 - P(BD)_{\text{y,}l_2}) $$
 
