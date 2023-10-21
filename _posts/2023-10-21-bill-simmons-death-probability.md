@@ -8,7 +8,7 @@ Over on Reddit, [someone asked](https://www.reddit.com/r/billsimmons/comments/17
 
 I do frequently listen to Bill Simmons's podcasts, and I thought the question was worthy of a more formal approach, both for the sake of scientific inquiry and also as a _memento mori_-esque caution. Below we explore the question: What is the probability that _at least one person_ has died while listening to Bill Simmons?
 
-The title does give away the result: it is a near certainty that not only one but multiple people have died while listening to Bill. Let's go through the math.
+The title does give away the result: it is a near certainty that not only one but multiple people have died while listening to Bill. Let's go through it.
 
 ### The death model
 
