@@ -9,7 +9,7 @@ One element of literary style is diction (word choice) and one subelement of dic
 
 Using the online [Project Gutenberg library](https://www.gutenberg.org/), I've analyzed the text of some canonical books in the public domain to look at how the *distinct* word count grows with the total word count. A distinct word is a word that appears at least once in the text, and the distinct word count is the number of distinct words in the text. The total word count is the number of words in the corpus, including repeated words. I ignore case and punctuation (except hyphens) and a hyphenated word is considered one combined distinct word.
 
-My selection of books was somewhat arbitrary—I looked at the top 100 most downloaded books and filtered to a subset of the list that I considered most renowned. (See appendix for the list.)
+My selection of books was somewhat arbitrary—I looked at the top 100 most downloaded books and filtered to a subset of the list that I considered most renowned, and I wanted to keep the number small enough where individual trajectories could be seen when graphed. (See appendix for the list of books.) It would benefit from a more rigorous implementation in any future extensions.
 
 Results are below.
 
