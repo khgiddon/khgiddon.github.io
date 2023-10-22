@@ -20,7 +20,7 @@ Let us first consider probability of death. Probabilities of death given age and
 
 - Assumption: Our model is yearly. We'll assume that the probability of death is constant over the course of a year.
 - Assumption: All listeners are American. While this isn't true, this enables us to use the SSA actuarial tables.
-- Assumption: Listeners of the podcast are representative of the general population in terms of their health.
+- Assumption: Listeners of the podcast are representative of their age cohort in terms of their health.
 - Assumption: The probability of death while listening to the podcast is independent of the overall probability of death. That is, we assume that listening to the podcast does not affect the probability of death for a given listener. Perhaps this isn't quite true, because listeners may be listening to the podcast while driving where death probability is higher vs. staying at home, or one of Bill's takes may be so bad that it causes a listener to just keel over and end it all. Or you could think that for those on their deathbed, they might finally put down their headphones and be less likely to be listening. But we'll go with the assumption of independence.
 
 We need to make some assumptions about listener ages and genders in order to use the actuarial tables. I could not find good statistics about this online, so we'll make the following assumptions:
@@ -37,7 +37,7 @@ For each listener, we want to find the percentage of the time they are listening
 
 We also must decide whether we care about dying while Bill himself is speaking, or whether dying while one of his guests or cohosts is speaking also counts. I believe the spirit of the original question is about Bill Simmons himself, so we'll go with that.
 
-The percentange of time in a year that a user spends listening to the podcast requires the following assumptions:
+The percentage of time in a year that a user spends listening to the podcast requires the following assumptions:
 
 - Assumption: Simmons releases a podcast 2–3 times per week, or 12 times per month / 144 times per year, including the *Bill Simmons Podcast* and its previous iterations and as a host on *The Rewatchables* podcast.
 - Assumption: The average length of these podcasts is 93 minutes—this assumption is based on the measured length of the ten month-to-date October episodes. (This length is true recently but might not be true for early iterations of the podcast like the _BS Report_, but we'll go with it throughout time. Measuring  the October lengths only also doesn't take into account any variation in average episode lengths due to seasonality.) We'll also ignore the length of ad reads (which on Spotify aren't typically included in the episode lengths), even though it is Simmons usually speaking during the ad reads. The thought of dying while listening to Bill read an ad for SimpliSafe is too depressing to pursue further. We'll also ignore Bill's cancelled [HBO show](https://youtube.com/watch?v=y1dGNbtHdV8&ab_channel=HBO), because I don't know in that case if we can safely assume that listening and death are independent.
