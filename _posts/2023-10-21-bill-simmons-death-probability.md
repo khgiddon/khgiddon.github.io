@@ -16,25 +16,24 @@ We first describe the general mathematical model we'll be filling out, which wil
 
 First, we want to model the probability of death while listening to Simmons for _a given listener of the podcast_, in a given year. Then we will take a cohort approach later and look at all listeners of the podcast  over time.
 
-Let us first consider probability of death. Probabilities of death given age and gender are available from the [Social Security Administration](https://www.ssa.gov/oact/STATS/table4c6.html), and we'll rely on those actuarial tables.
+Let us first consider probability of death. Probabilities of death given age and gender are available from the [Social Security Administration](https://www.ssa.gov/oact/STATS/table4c6.html), and we'll rely on those actuarial tables. For example, for a 33-year-old male the annual death probability is 0.002517, and for a 70-year-old male it is 0.026137.
 
 - Assumption: Our model is yearly. We'll assume that the probability of death is constant over the course of a year.
 - Assumption: All listeners are American. While this isn't true, this enables us to use the SSA actuarial tables.
 - Assumption: Listeners of the podcast are representative of the general population in terms of their health.
 - Assumption: The probability of death while listening to the podcast is independent of the overall probability of death. That is, we assume that listening to the podcast does not affect the probability of death for a given listener. Perhaps this isn't quite true, because listeners may be listening to the podcast while driving where death probability is higher vs. staying at home, or one of Bill's takes may be so bad that it causes a listener to just keel over and end it all. Or you could think that for those on their deathbed, they might finally put down their headphones and be less likely to be listening. But we'll go with the assumption of independence.
 
-We need to make some assumptions about listener ages and genders. I could not find good statistics about this online, so we'll make the following assumptions:
-
+We need to make some assumptions about listener ages and genders in order to use the actuarial tables. I could not find good statistics about this online, so we'll make the following assumptions:
 
 - Assumption: Bill's listeners' ages follow a uniform distribution between age 18 and age 75. That is, the probability of a listener being age $$x$$ is $$P_{\text{Age}}(x) = \frac{1}{75 - 18}$$.
 - Assumption: Bill's listeners are 100% male. I know this isn't true in practice but it's close enough, and this won't be a significant source of error in the model.
 
 Now we need to determine the percentage of time in a given year that the average listener spends listening to the podcast. A listener is defined as someone who downloads and listens to the podcast at least once a year. This is important for our model later: a listener is not the listener of a *given* episode, but someone who listens to the podcast at least once in a year (because we need to be able to join this with statistics on someone's death probability in a given year). 
 
-For each listened, we want to find the percentage of the time they are listening to Bill Simmons. This can be modeled as the total number of annual podcast minutes released by Simmons, multiplied by the percentage of these minutes listened to by the average listener, all divided by the total number of minutes in a year. 
+For each listener, we want to find the percentage of the time they are listening to Bill Simmons. This can be modeled as the total number of annual podcast minutes released by Simmons, multiplied by the percentage of these minutes listened to by the average listener, all divided by the total number of minutes in a year. 
 
 - Assumption: The relationship between how often a given listener listens to the podcast and death probability is independent. That is, more frequent listeners are not more likely to die on a rate basis. This enables to use averages and simplify the model.
-- Assumption: Time spent listening is indepedent of listener age. That is, older listeners are not more likely to listen to the podcast more often than younger listeners. 
+- Assumption: Time spent listening is independent of listener age. That is, older listeners are not more likely to listen to the podcast more often than younger listeners. 
 
 We also must decide whether we care about dying while Bill himself is speaking, or whether dying one of his guests or cohosts is speaking also counts. I believe the spirit of the original question is about Bill Simmons himself, so we'll go with that.
 
