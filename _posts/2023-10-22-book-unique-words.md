@@ -3,7 +3,7 @@ layout: post
 title: "Joyce's Ulysses stands alone, or: word uniqueness in some canonical books"
 ---
 
-While I'm (slowly) writing my own novel, I've tried to vary my own reading this year to authors with different styles; it's been a pleasure to flit back and forth between, for instance, Pynchon and DeLillo and Tolstoy. *Le style c'est l'homme même,* as the French naturalist Buffon said: style is the man himself.
+While I'm (slowly) writing my own novel, I've tried to vary my own reading this year to include authors with different styles for some diversity of inspiration. It's been a pleasure to flit back and forth between, for instance, Pynchon and DeLillo and Tolstoy. *Le style c'est l'homme même,* as the French naturalist Buffon said: style is the man himself.
 
 One element of literary style is diction (word choice) and one subelement of diction is the variety of words used, which can be quantified. This is not to say that all elements of diction can be quantified, or that a writer who uses more distinct words is a better writer, but only that quantitative analysis can reveal or confirm elements of a writer's style.
 
