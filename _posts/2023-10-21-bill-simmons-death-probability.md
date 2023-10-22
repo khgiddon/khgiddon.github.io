@@ -105,7 +105,7 @@ After running this script, we find that *the probability of at least one death w
 
 Just a sensitivity check, in case one of our assumptions are off: if we assume that one of our assumptions is off by a factor of ten and we appropriately divide the death probability by 10, this still leaves an 82% probability of at least one death in a given year.
 
-If we use 82% as the annual probability, we can ask for the the probability of at least one death over the course of 16 years. All of our assumptions are constant by year, we can simply use the following equation to find the probability of at least one death listening to Bill during his podcasting tenure:
+If we use 82% as the annual probability, we can ask for the probability of at least one death over the course of 16 years. All of our assumptions are constant by year, we can simply use the following equation to find the probability of at least one death listening to Bill during his podcasting tenure:
 
 $$ \tag{7} P(\text{At least one death})_{\text{16 years}} = 1 - (1 - P(\text{At least one death})_{\text{y}})^{16} \approx 100\% $$
 
