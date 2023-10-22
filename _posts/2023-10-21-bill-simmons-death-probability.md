@@ -35,7 +35,7 @@ For each listener, we want to find the percentage of the time they are listening
 - Assumption: The relationship between how often a given listener listens to the podcast and death probability is independent. That is, more frequent listeners are not more likely to die on a rate basis. This enables to use averages and simplify the model.
 - Assumption: Time spent listening is independent of listener age. That is, older listeners are not more likely to listen to the podcast more often than younger listeners. 
 
-We also must decide whether we care about dying while Bill himself is speaking, or whether dying one of his guests or cohosts is speaking also counts. I believe the spirit of the original question is about Bill Simmons himself, so we'll go with that.
+We also must decide whether we care about dying while Bill himself is speaking, or whether dying while one of his guests or cohosts is speaking also counts. I believe the spirit of the original question is about Bill Simmons himself, so we'll go with that.
 
 The percentange of time in a year that a user spends listening to the podcast requires the following assumptions:
 
