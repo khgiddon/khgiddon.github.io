@@ -85,16 +85,16 @@ We could model this number separately by year to account for Bill's growing popu
 
 Now we can put all the pieces together.
 
-If the probability of death while listening to Bill Simmons for a given listener *l* in a given year *y* is $P(BD)_{\text{y}}$, then the probability of at least one death for two listeners in a given year is:
+If the probability of death while listening to Bill Simmons for a given listener *l* in a given year *y* is $$P(BD)_{\text{y}}$$, then the probability of at least one death for two listeners in a given year is:
 
 $$ \tag{4} P(\text{At least one death})_{\text{y}} = 1 - (1 - P(BD)_{\text{y,}l_1}) \times (1 - P(BD)_{\text{y,}l_2}) $$
 
-Then for all listeners l in a given year, the equation will be:
+Then for all listeners *l* in a given year, the equation will be:
 
 $$ \tag{5} P(\text{At least one death})_{\text{y}} = 1 - \prod_{l=1}^{n_{y}
 } (1 - P(BD)_{\text{y,}l}) $$
 
-Substituting in equation (3) for $P(BD)_{\text{y,}l}$, we get:
+Substituting in equation (3) for $$P(BD)_{\text{y,}l}$$, we get:
 
 $$ \tag{6} P(\text{At least one death})_{\text{y}} = 1 - \prod_{l=1}^{n_{y}} \left(1 - P(D)_{\text{age}_{l}, \text{gender}_{l}} \times BR \right)
  $$
