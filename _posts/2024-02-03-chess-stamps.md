@@ -5,7 +5,7 @@ title: Announcing "Chess Stamps" — a new tool for chess statistics
 
 [Chess Stamps](https://www.chessstamps.app) is a new tool I've created for pulling statistics on your chess games played on [Lichess](https://lichess.org).
 
-The tool fills a need for me that I haven't seen elsewhere: contextualizing your opening repertoire as it compares to the population. For example:
+The tool combines two of my great loves (chess and statistics). It fills a need for me that I haven't seen elsewhere: contextualizing your opening repertoire as it compares to the population. For example:
 
 - **What's the most commonly played opening you've never played?** (If you're Magnus: Italian Game: Anti-Fried Liver Defense)
 - **What's the least common opening that you've played?** (If you're Naroditsky: Vienna Gambit, with Max Lange Defense: Steinitz Gambit, Fraser-Minckwitz Defense)
