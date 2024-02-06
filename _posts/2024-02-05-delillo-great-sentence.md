@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some analysis of a minor sentence in Don DeLillo's "Underworld"
+title: A lovely throwaway sentence in Don DeLillo's "Underworld"
 ---
 
 Midway through the journey of Don DeLillo's novel *Underworld* (1998), there's a sentence that, at first glance, seems unremarkable:
