@@ -3,7 +3,7 @@ layout: post
 title: Announcing "Chess Stamps" — a new tool for chess statistics
 ---
 
-[Chess Stamps](https://www.chessstamps.app) is a new tool I've created for pulling statistics on your chess games played on [Lichess](https://lichess.org).
+[Chess Stamps](https://www.chessstamps.app) is a new tool I've created for pulling statistics on your chess games played on [Lichess](https://lichess.org). Soon after release, it was featured on the [Lichess homepage feed](https://lichess.org/feed#Kyg3W8) and received over 1,250 unique users in the first week.
 
 The tool combines two of my great loves (chess and statistics). It fills a need for me that I haven't seen elsewhere: contextualizing your opening repertoire as it compares to the population. For example:
 
@@ -16,6 +16,6 @@ I enjoy seeing the relative rarity of each opening—what % of games are the ope
 
 The theme comes from thinking of playing chess openings as collecting stamps: how large is your collection, and how rare are the stamps in it?
 
-This was my first webdev project, and it was a lot of fun to put together. I welcome any feedback, either at my email address (kylegiddon@gmail.com), on the [GitHub repo](https://github.com/khgiddon/chess-stamps), or through [this form](https://docs.google.com/forms/d/1hFVHN7OuB9u2K8anVJ2WxI6UrDUNsfjl4b-M5UX6kBI/edit) (can be anonymous).
+This was my first webdev project, and it was a lot of fun to put together. The code is open source. I welcome any feedback, either at my email address (kylegiddon@gmail.com), on the [GitHub repo](https://github.com/khgiddon/chess-stamps), or through [this form](https://docs.google.com/forms/d/1hFVHN7OuB9u2K8anVJ2WxI6UrDUNsfjl4b-M5UX6kBI/edit) (can be anonymous).
 
 
