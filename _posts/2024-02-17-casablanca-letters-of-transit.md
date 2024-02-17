@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Who signed the letters of transit in Casablanca? A Bayesian approach
+title: Who signed the letters of transit in Casablanca? A not-wholly-necessary Bayesian approach
 usemathjax: true
 ---
 
@@ -25,7 +25,7 @@ Given this, we want to solve for $$P(D\mid S)$$, the probability that Ugarte say
 
 What values should we assign to these terms?
 
-Because the subtitle clearly says "DeGaulle", we can assume that $$P(S|D) = 1$$. That is, if the line is "DeGaulle", the subtitle will certainly say "DeGaulle".
+Because the subtitle clearly says "DeGaulle", we can assume that $$P(S\mid D) = 1$$. That is, if the line is "DeGaulle", the subtitle will certainly say "DeGaulle".
 
 The other probabilities don't have obvious values. We don't have the script handy. We'll make a chart of the possible values of $$P(D)$$ and $$P(S\mid\neg D)$$, and then solve for $$P(D\mid S)$$ depending on these values.
 
@@ -35,7 +35,7 @@ $$
 P(D|S) = \frac{P(S|D)P(D)}{P(S)}
 $$
 
-We can also write $P(S)$ in terms of $D$ and $\neg D$:
+We can also write $$P(S)$$ in terms of $$D$$ and $$\neg D$$:
 
 $$
 P(S) = P(S|D)P(D) + P(S|\neg D)P(\neg D)
