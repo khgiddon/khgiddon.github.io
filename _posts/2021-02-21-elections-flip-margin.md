@@ -61,7 +61,7 @@ One would hope that Electoral College Reform features prominently on any progres
 
 ### Code
 
-The full code is [available on my GitHub](https://github.com/khgiddon/misc/blob/main/elections/elections.ipynb).
+The full code is [available on GitHub](https://github.com/khgiddon/elections-flip-margin).
 
 ### Data sources
 
