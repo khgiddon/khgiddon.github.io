@@ -4,7 +4,7 @@ title: Who signed the letters of transit in Casablanca? A not-wholly-necessary B
 usemathjax: true
 ---
 
-Last month, I was rewatching the great 1942 film *Casablanca* (as one does). Early on, the character Ugarte introduces the central [MacGuffin](https://en.wikipedia.org/wiki/MacGuffin) of the plot: the "letters of transit" that allow the bearer to move freely through Nazi-occupied territory. Watching with subtitles, I had to pause after this line:
+Last month, I was rewatching the great 1942 film *Casablanca* (as one does). Early on, the character Ugarte introduces the central [MacGuffin](https://en.wikipedia.org/wiki/MacGuffin) of the plot: the "letters of transit" that allow the bearer to move freely through Vichy or occupied territory. Watching with subtitles, I had to pause after this line:
 
 ![Letters of transit signed by General de Gaulle](/images/casablanca/letters_of_transit.png)
 
