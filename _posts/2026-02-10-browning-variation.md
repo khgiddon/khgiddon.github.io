@@ -3,7 +3,7 @@ layout: post
 title: Stress fractures
 ---
 
-*A review of the 1951 film **The Browning Version**. No plot recap; some familiarity assumed—though it is [streaming on the Criterion Channel](https://www.criterionchannel.com/videos/the-browning-version) for the curious.*
+*A review of the 1951 film **The Browning Version**. No plot recap; some familiarity assumed. It is [streaming on the Criterion Channel](https://www.criterionchannel.com/videos/the-browning-version) for the curious.*
 
 Civil engineers watch for structural stress; critics should look out for structurally induced pathos. Too much of it means the building’s liable to buckle. 
 
