@@ -13,7 +13,7 @@ Archaeological recovery from the early twenty-first-century North American layer
 
 **Portrait Rod**: A telescoping camera mount for self-recording, typically clamped to a handheld communication device and extended outward from the operator. Its prevalence indicates unresolved focal-length constraints in twenty-first-century consumer optics.
 
-**Metal Straw**: A durable drinking tube transported separately from its vessel.Its reason for manufacture remains unclear, as radiocarbon dating shows that earlier plastic tubes were already durable enough to survive into the present layer.
+**Metal Straw**: A durable drinking tube transported separately from its vessel. Its reason for manufacture remains unclear, as radiocarbon dating shows that earlier plastic tubes were already durable enough to survive into the present layer.
 
 **Cable Drawer (Knotted Wires of Unknown Purpose)**: Domestic cord nests containing obsolete connectors to vanished machines. They were carefully retained despite clear incompatibilities. Close examination reveals that the cords are of different vintages, implying they were never meant to mutually connect. Their relationship to one another remains the subject of active scholarly dispute.
 
