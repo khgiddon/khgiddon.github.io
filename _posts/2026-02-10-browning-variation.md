@@ -14,7 +14,7 @@ Crocker-Harris’s psychological turns recall another tragic figure: King Lear. 
 > **KENT:** Is this the promised end?  
 > **EDGAR:** Or image of that horror?
 
-Bodies pile up. The stage picture turns apocalyptic, a Bruegel  in motion. The dramatic effect is undeniable. Indeed, Shakespeare critic A.C. Bradley described Lear as “Shakespeare's greatest achievement, but it seems to me not his best play.”
+Bodies pile up. The stage picture turns apocalyptic. The dramatic effect is undeniable. Indeed, Shakespeare critic A.C. Bradley described Lear as “Shakespeare's greatest achievement, but it seems to me not his best play.”
 
 Rattigan, by contrast, has no such shield. As a chamber character study, *Browning* is subtler by design. The psychology often rings truer than Lear’s (for Crocker-Harris, at least—his henpecking wife is unfortunately drawn in coarser chalk); and the film’s best moments come from, again like Lear, his lamentations over his mistake. The standout scene is in Crocker-Harris’s classroom, where he reflects on his career with the teacher who’s replacing him: “I realize I did not possess the knack for making myself liked. But at the beginning at least I did try very hard to communicate to the boys, those boys sitting out there, some of my own joy in the great literature of the past.” He failed, and now for years has no longer tried. Redgrave gives a virtuoso performance and is able to get across the full rainbow of emotion in the very repressed, strictured range of expression that his character permits. The close-ups certainly help—score a point for the screen over the stage.
 
