@@ -21,6 +21,6 @@ Archaeological recovery from the early twenty-first-century North American layer
 
 **Candle in Glass Housing**: An open-flame lighting device that persisted long after safer illumination technologies were widely available. Late-period specimens are frequently branded with the insignia of “scent houses," suggesting guild protection of the technology.
 
-**Wireless Ear Unit**: A small white insertable device shaped to lock into a single ear, with no visible fasteners or external wiring. Surface wear suggests prolonged bodily contact. Though clearly manufactured in bilateral sets, recovery is overwhelmingly singular.
+**Wireless Ear Unit**: A small white insertable device shaped to lock into a single ear, with no visible fasteners or external wiring. Surface wear suggests prolonged bodily contact: some examples still contain organically secreted wax. Though clearly manufactured in bilateral sets, recovery has been overwhelmingly singular.
 
 Further excavation is expected to clarify the functions of these objects, and additional funding has been requested.
