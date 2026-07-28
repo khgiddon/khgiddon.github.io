@@ -17,10 +17,10 @@ Archaeological recovery from the early twenty-first-century North American layer
 
 **Cable Drawer (Knotted Wires of Unknown Purpose)**: Domestic cord nests containing obsolete connectors to vanished machines. They were carefully retained despite clear incompatibilities. Close examination reveals that the cords are of different vintages, implying they were never meant to mutually connect. Their relationship to one another remains the subject of active scholarly dispute.
 
-**Foam Roller**: A cylindrical compression device used in domestic settings. Its form strongly resembles earlier road-compaction machinery, suggesting a scaled-down household derivative. No infrastructure work has been attributed to its use.
+**Foam Roller**: A cylindrical compression device used in domestic settings. Its form strongly resembles earlier road-compaction machinery, suggesting a scaled-down household derivative.
 
 **Candle in Glass Housing**: An open-flame lighting device that persisted long after safer illumination technologies were widely available. Late-period specimens are frequently branded with the insignia of “scent houses," suggesting guild protection of the technology.
 
-**Wireless Ear Unit**: A small white insertable device shaped to lock into a single ear, with no visible fasteners or external wiring. Surface wear suggests prolonged bodily contact: some examples still contain organically secreted wax. Though clearly manufactured in bilateral sets, recovery has been overwhelmingly singular.
+**Wireless Ear Unit**: A small white insertable device shaped to lock into a single ear, with no visible fasteners or external wiring. Surface wear suggests prolonged bodily contact: some examples still contain organically secreted wax. Though clearly manufactured in bilateral sets, recovered specimens are primarily found alone.
 
 Further excavation is expected to clarify the functions of these objects, and additional funding has been requested.
