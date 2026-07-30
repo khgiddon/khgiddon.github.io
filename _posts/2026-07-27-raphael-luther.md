@@ -7,7 +7,7 @@ I wrote a one-act play!
 
 Synopsis: Rome, 1511. An unknown German monk named Martin Luther arrives at the workshop of the celebrated painter Raphael. The painter and the monk, both twenty-seven years old, discover an unexpected kinship—and the beginnings of an argument that will outlive them both.
 
-Raphael believes beauty can reveal the divine; Luther fears that even the greatest works of arts may come to stand between humanity and God. Over an afternoon and the following day—as a deadline tightens, a war empties the treasury, and a cardinal counts the cost of every pigment—their argument moves from the studio to the Vatican itself, to the scaffolding beneath the unfinished *School of Athens.*
+Raphael believes the beauty of art can reveal the divine; Luther fears that even the greatest works of art may act as a barrier between humanity and God. Over an afternoon and the following day—as a deadline tightens, a war empties the treasury, and a cardinal counts the cost of every pigment—their argument moves from the studio to the Vatican itself, to the scaffolding beneath the unfinished *School of Athens.*
 
 Set six years before Luther nailed the Ninety-five Theses to a church door, *IN GOLD AND LAPIS LAZULI* imagines a meeting that never happened, but could have, between two men whose ideas shaped Europe for years to come.
 
