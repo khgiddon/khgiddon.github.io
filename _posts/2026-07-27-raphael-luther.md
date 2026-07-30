@@ -3,7 +3,7 @@ layout: post
 title: In Gold and Lapis Lazuli
 ---
 
-I wrote a one-act play.
+I wrote a one-act play!
 
 Synopsis: Rome, 1511. An unknown German monk named Martin Luther arrives at the workshop of the celebrated painter Raphael. The painter and the monk, both twenty-seven years old, discover an unexpected kinship—and the beginnings of an argument that will outlive them both.
 
